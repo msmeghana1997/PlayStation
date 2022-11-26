@@ -1,0 +1,280 @@
+2022-10-11 13:59:26:239 [Appium] Welcome to Appium v1.22.3
+2022-10-11 13:59:26:240 [Appium] Non-default server args:
+2022-10-11 13:59:26:241 [Appium]   address: 127.0.0.1
+2022-10-11 13:59:26:241 [Appium]   port: 43470
+2022-10-11 13:59:26:241 [Appium]   logFile: C:\Sri Mandir repo\SRI_MANDIR(Different languages)\.\ServerLogs\appiumSriMandircompareImageOfSameGodInMandirPage.log
+2022-10-11 13:59:26:280 [Appium] Appium REST http interface listener started on 127.0.0.1:43470
+2022-10-11 13:59:26:483 [HTTP] --> GET /wd/hub/status
+2022-10-11 13:59:26:484 [HTTP] {}
+2022-10-11 13:59:26:486 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2022-10-11 13:59:26:487 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.22.3"}}
+2022-10-11 13:59:26:494 [HTTP] <-- GET /wd/hub/status 200 8 ms - 68
+2022-10-11 13:59:26:495 [HTTP] 
+2022-10-11 13:59:27:131 [HTTP] --> POST /wd/hub/session
+2022-10-11 13:59:27:132 [HTTP] {"desiredCapabilities":{"app":"./src/main/java/resources/app-debug-3.7.5.apk","noReset":true,"automationName":"UiAutomator2","autoGrantPermissions":true,"platformName":"Android","udid":"emulator-5554","platform":"ANDROID"},"capabilities":{"firstMatch":[{"appium:app":"./src/main/java/resources/app-debug-3.7.5.apk","appium:autoGrantPermissions":true,"appium:automationName":"UiAutomator2","appium:noReset":true,"platform":"ANDROID","platformName":"android","appium:udid":"emulator-5554"}]}}
+2022-10-11 13:59:27:133 [W3C] Calling AppiumDriver.createSession() with args: [{"app":"./src/main/java/resources/app-debug-3.7.5.apk","noReset":true,"automationName":"UiAutomator2","autoGrantPermissions":true,"platformName":"Android","udid":"emulator-5554","platform":"ANDROID"},null,{"firstMatch":[{"appium:app":"./src/main/java/resources/app-debug-3.7.5.apk","appium:autoGrantPermissions":true,"appium:automationName":"UiAutomator2","appium:noReset":true,"platform":"ANDROID","platformName":"android","appium:udid":"emulator-5554"}]}]
+2022-10-11 13:59:27:134 [BaseDriver] Event 'newSessionRequested' logged at 1665496767133 (19:29:27 GMT+0530 (India Standard Time))
+2022-10-11 13:59:27:137 [BaseDriver] The following capabilities are not standard capabilities and should have an extension prefix:
+2022-10-11 13:59:27:137 [BaseDriver]   platform
+2022-10-11 13:59:27:469 [Appium] Appium v1.22.3 creating new AndroidUiautomator2Driver (v1.70.1) session
+2022-10-11 13:59:27:473 [BaseDriver] W3C capabilities and MJSONWP desired capabilities were provided
+2022-10-11 13:59:27:474 [BaseDriver] Creating session with W3C capabilities: {
+2022-10-11 13:59:27:474 [BaseDriver]   "alwaysMatch": {
+2022-10-11 13:59:27:474 [BaseDriver]     "appium:platform": "ANDROID",
+2022-10-11 13:59:27:474 [BaseDriver]     "platformName": "android",
+2022-10-11 13:59:27:475 [BaseDriver]     "appium:app": "./src/main/java/resources/app-debug-3.7.5.apk",
+2022-10-11 13:59:27:475 [BaseDriver]     "appium:autoGrantPermissions": true,
+2022-10-11 13:59:27:475 [BaseDriver]     "appium:automationName": "UiAutomator2",
+2022-10-11 13:59:27:475 [BaseDriver]     "appium:noReset": true,
+2022-10-11 13:59:27:475 [BaseDriver]     "appium:udid": "emulator-5554"
+2022-10-11 13:59:27:476 [BaseDriver]   },
+2022-10-11 13:59:27:476 [BaseDriver]   "firstMatch": [
+2022-10-11 13:59:27:476 [BaseDriver]     {}
+2022-10-11 13:59:27:476 [BaseDriver]   ]
+2022-10-11 13:59:27:476 [BaseDriver] }
+2022-10-11 13:59:27:484 [BaseDriver] The following capabilities were provided, but are not recognized by Appium:
+2022-10-11 13:59:27:484 [BaseDriver]   platform
+2022-10-11 13:59:27:485 [BaseDriver] Session created with session id: 2b5da92c-aefe-46ea-a1d0-299b4e7c8431
+2022-10-11 13:59:27:488 [BaseDriver] Using local app './src/main/java/resources/app-debug-3.7.5.apk'
+2022-10-11 13:59:27:488 [BaseDriver] The current application path './src/main/java/resources/app-debug-3.7.5.apk' is not absolute and has been rewritten to 'C:\Sri Mandir repo\SRI_MANDIR(Different languages)\src\main\java\resources\app-debug-3.7.5.apk'. Consider using absolute paths rather than relative
+2022-10-11 13:59:27:488 [UiAutomator2] Checking whether app is actually present
+2022-10-11 13:59:27:524 [ADB] Found 2 'build-tools' folders under 'C:\Users\Santhruptha\AppData\Local\Android\Sdk' (newest first):
+2022-10-11 13:59:27:524 [ADB]     C:/Users/Santhruptha/AppData/Local/Android/Sdk/build-tools/33.0.0
+2022-10-11 13:59:27:524 [ADB]     C:/Users/Santhruptha/AppData/Local/Android/Sdk/build-tools/30.0.3
+2022-10-11 13:59:27:534 [ADB] Using 'adb.exe' from 'C:\Users\Santhruptha\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+2022-10-11 13:59:27:538 [ADB] Running 'C:\Users\Santhruptha\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 start-server'
+2022-10-11 13:59:27:577 [AndroidDriver] Retrieving device list
+2022-10-11 13:59:27:578 [ADB] Trying to find a connected android device
+2022-10-11 13:59:27:578 [ADB] Getting connected devices
+2022-10-11 13:59:27:616 [ADB] Connected devices: [{"udid":"emulator-5554","state":"device"}]
+2022-10-11 13:59:27:617 [AndroidDriver] Using device: emulator-5554
+2022-10-11 13:59:27:620 [ADB] Using 'adb.exe' from 'C:\Users\Santhruptha\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+2022-10-11 13:59:27:621 [ADB] Running 'C:\Users\Santhruptha\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 start-server'
+2022-10-11 13:59:27:661 [ADB] Setting device id to emulator-5554
+2022-10-11 13:59:27:662 [ADB] Running 'C:\Users\Santhruptha\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell getprop ro.build.version.sdk'
+2022-10-11 13:59:27:724 [ADB] Current device property 'ro.build.version.sdk': 31
+2022-10-11 13:59:27:724 [ADB] Getting device platform version
+2022-10-11 13:59:27:725 [ADB] Running 'C:\Users\Santhruptha\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell getprop ro.build.version.release'
+2022-10-11 13:59:27:783 [ADB] Current device property 'ro.build.version.release': 12
+2022-10-11 13:59:27:783 [ADB] Device API level: 31
+2022-10-11 13:59:27:784 [UiAutomator2] Relaxing hidden api policy
+2022-10-11 13:59:27:784 [ADB] Running 'C:\Users\Santhruptha\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell 'settings put global hidden_api_policy_pre_p_apps 1;settings put global hidden_api_policy_p_apps 1;settings put global hidden_api_policy 1''
+2022-10-11 13:59:27:919 [AndroidDriver] Parsing package and activity from app manifest
+2022-10-11 13:59:27:996 [ADB] Package name: 'com.mandir'
+2022-10-11 13:59:27:996 [ADB] Main activity name: 'com.mandir.ui.activity.SplashActivity'
+2022-10-11 13:59:27:996 [AndroidDriver] Parsed package and activity are: com.mandir/com.mandir.ui.activity.SplashActivity
+2022-10-11 13:59:27:997 [ADB] Running 'C:\Users\Santhruptha\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 wait-for-device'
+2022-10-11 13:59:28:031 [ADB] Running 'C:\Users\Santhruptha\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell echo ping'
+2022-10-11 13:59:28:084 [AndroidDriver] Pushing settings apk to device...
+2022-10-11 13:59:28:085 [ADB] Getting install status for io.appium.settings
+2022-10-11 13:59:28:085 [ADB] Running 'C:\Users\Santhruptha\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package io.appium.settings'
+2022-10-11 13:59:28:554 [ADB] 'io.appium.settings' is installed
+2022-10-11 13:59:28:554 [ADB] Getting package info for 'io.appium.settings'
+2022-10-11 13:59:28:555 [ADB] Running 'C:\Users\Santhruptha\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package io.appium.settings'
+2022-10-11 13:59:28:618 [ADB] The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('3.4.0' >= '3.4.0')
+2022-10-11 13:59:28:619 [ADB] There is no need to install/upgrade 'C:\Users\Santhruptha\AppData\Roaming\npm\node_modules\appium\node_modules\io.appium.settings\apks\settings_apk-debug.apk'
+2022-10-11 13:59:28:619 [ADB] Getting IDs of all 'io.appium.settings' processes
+2022-10-11 13:59:28:620 [ADB] Running 'C:\Users\Santhruptha\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell 'pgrep --help; echo $?''
+2022-10-11 13:59:28:683 [ADB] Running 'C:\Users\Santhruptha\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pgrep -f \(\[\[:blank:\]\]\|\^\)io\.appium\.settings\(\[\[:blank:\]\]\|\$\)'
+2022-10-11 13:59:28:768 [AndroidDriver] io.appium.settings is already running. There is no need to reset its permissions.
+2022-10-11 13:59:28:770 [Logcat] Starting logs capture with command: C:\\Users\\Santhruptha\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 logcat -v threadtime
+2022-10-11 13:59:28:850 [UiAutomator2] Forwarding UiAutomator2 Server port 6790 to local port 8201
+2022-10-11 13:59:28:851 [ADB] Forwarding system: 8201 to device: 6790
+2022-10-11 13:59:28:852 [ADB] Running 'C:\Users\Santhruptha\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 forward tcp:8201 tcp:6790'
+2022-10-11 13:59:28:924 [ADB] Getting install status for io.appium.uiautomator2.server
+2022-10-11 13:59:28:925 [ADB] Running 'C:\Users\Santhruptha\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package io.appium.uiautomator2.server'
+2022-10-11 13:59:29:113 [ADB] 'io.appium.uiautomator2.server' is installed
+2022-10-11 13:59:29:113 [ADB] Getting package info for 'io.appium.uiautomator2.server'
+2022-10-11 13:59:29:114 [ADB] Running 'C:\Users\Santhruptha\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package io.appium.uiautomator2.server'
+2022-10-11 13:59:29:453 [ADB] The version name of the installed 'io.appium.uiautomator2.server' is greater or equal to the application version name ('4.27.0' >= '4.27.0')
+2022-10-11 13:59:29:453 [UiAutomator2] io.appium.uiautomator2.server installation state: sameVersionInstalled
+2022-10-11 13:59:29:454 [ADB] Checking app cert for C:\Users\Santhruptha\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk
+2022-10-11 13:59:29:480 [ADB] Using 'apksigner.jar' from 'C:\Users\Santhruptha\AppData\Local\Android\Sdk\build-tools\33.0.0\lib\apksigner.jar'
+2022-10-11 13:59:29:481 [ADB] Starting apksigner: 'C:\\Program Files\\Java\\jdk1.8.0_291\\bin\\java.exe' -Xmx1024M -Xss1m -jar C:\\Users\\Santhruptha\\AppData\\Local\\Android\\Sdk\\build-tools\\33.0.0\\lib\\apksigner.jar verify --print-certs C:\\Users\\Santhruptha\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v4.27.0.apk
+2022-10-11 13:59:30:692 [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+2022-10-11 13:59:30:692 [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+2022-10-11 13:59:30:692 [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+2022-10-11 13:59:30:692 [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+2022-10-11 13:59:30:693 [ADB] 
+2022-10-11 13:59:30:693 [ADB] sha256 hash did match for 'appium-uiautomator2-server-v4.27.0.apk'
+2022-10-11 13:59:30:693 [ADB] 'C:\Users\Santhruptha\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk' is signed with the default certificate
+2022-10-11 13:59:30:694 [ADB] Getting install status for io.appium.uiautomator2.server.test
+2022-10-11 13:59:30:694 [ADB] Running 'C:\Users\Santhruptha\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package io.appium.uiautomator2.server.test'
+2022-10-11 13:59:30:753 [ADB] 'io.appium.uiautomator2.server.test' is installed
+2022-10-11 13:59:30:754 [ADB] Checking app cert for C:\Users\Santhruptha\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk
+2022-10-11 13:59:30:758 [ADB] Starting apksigner: 'C:\\Program Files\\Java\\jdk1.8.0_291\\bin\\java.exe' -Xmx1024M -Xss1m -jar C:\\Users\\Santhruptha\\AppData\\Local\\Android\\Sdk\\build-tools\\33.0.0\\lib\\apksigner.jar verify --print-certs C:\\Users\\Santhruptha\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk
+2022-10-11 13:59:31:279 [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+2022-10-11 13:59:31:279 [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+2022-10-11 13:59:31:279 [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+2022-10-11 13:59:31:279 [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+2022-10-11 13:59:31:279 [ADB] 
+2022-10-11 13:59:31:279 [ADB] sha256 hash did match for 'appium-uiautomator2-server-debug-androidTest.apk'
+2022-10-11 13:59:31:279 [ADB] 'C:\Users\Santhruptha\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
+2022-10-11 13:59:31:279 [UiAutomator2] Server packages are not going to be (re)installed
+2022-10-11 13:59:31:282 [UiAutomator2] Waiting up to 30000ms for services to be available
+2022-10-11 13:59:31:283 [ADB] Running 'C:\Users\Santhruptha\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pm list instrumentation'
+2022-10-11 13:59:31:338 [UiAutomator2] Instrumentation target 'io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner' is available
+2022-10-11 13:59:31:342 [ADB] Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+2022-10-11 13:59:31:343 [ADB] Got the following command chunks to execute: [["dumpsys","deviceidle","whitelist","+io.appium.settings",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server.test",";"]]
+2022-10-11 13:59:31:343 [ADB] Running 'C:\Users\Santhruptha\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys deviceidle whitelist +io.appium.settings ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server.test ;'
+2022-10-11 13:59:31:425 [ADB] Checking app cert for C:\Sri Mandir repo\SRI_MANDIR(Different languages)\src\main\java\resources\app-debug-3.7.5.apk
+2022-10-11 13:59:31:837 [ADB] Starting apksigner: 'C:\\Program Files\\Java\\jdk1.8.0_291\\bin\\java.exe' -Xmx1024M -Xss1m -jar C:\\Users\\Santhruptha\\AppData\\Local\\Android\\Sdk\\build-tools\\33.0.0\\lib\\apksigner.jar verify --print-certs 'C:\\Sri Mandir repo\\SRI_MANDIR(Different languages)\\src\\main\\java\\resources\\app-debug-3.7.5.apk'
+2022-10-11 13:59:36:728 [ADB] apksigner stdout: Signer #1 certificate DN: C=US, O=Android, CN=Android Debug
+2022-10-11 13:59:36:728 [ADB] Signer #1 certificate SHA-256 digest: 468f8d0eca3bb01d2f428ec8b54a99b3813d746f45499a1b98320fb67de13b88
+2022-10-11 13:59:36:729 [ADB] Signer #1 certificate SHA-1 digest: 6af3fb8b6c2faff18497cde281bcb0971856f899
+2022-10-11 13:59:36:729 [ADB] Signer #1 certificate MD5 digest: 80c2152efe8fbaf12745baabbb4c6045
+2022-10-11 13:59:36:729 [ADB] 
+2022-10-11 13:59:36:729 [ADB] 'C:\Sri Mandir repo\SRI_MANDIR(Different languages)\src\main\java\resources\app-debug-3.7.5.apk' is signed with a non-default certificate
+2022-10-11 13:59:36:729 [ADB] Getting install status for com.mandir
+2022-10-11 13:59:36:730 [ADB] Running 'C:\Users\Santhruptha\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package com.mandir'
+2022-10-11 13:59:36:931 [ADB] 'com.mandir' is installed
+2022-10-11 13:59:36:931 [ADB] Getting package info for 'com.mandir'
+2022-10-11 13:59:36:932 [ADB] Running 'C:\Users\Santhruptha\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package com.mandir'
+2022-10-11 13:59:37:040 [ADB] The version name of the installed 'com.mandir' is greater or equal to the application version name ('3.7.5' >= '3.7.5')
+2022-10-11 13:59:37:040 [ADB] There is no need to install/upgrade 'C:\Sri Mandir repo\SRI_MANDIR(Different languages)\src\main\java\resources\app-debug-3.7.5.apk'
+2022-10-11 13:59:37:041 [UiAutomator2] Performing shallow cleanup of automation leftovers
+2022-10-11 13:59:37:070 [UiAutomator2] The following obsolete sessions are still running: ["6de41fcf-e0d0-4ecc-88d1-c356068eba17"]
+2022-10-11 13:59:37:073 [UiAutomator2] Cleaning up 1 obsolete session
+2022-10-11 13:59:38:106 [ADB] Running 'C:\Users\Santhruptha\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am force-stop io.appium.uiautomator2.server.test'
+2022-10-11 13:59:38:185 [UiAutomator2] Starting UIAutomator2 server 4.27.0
+2022-10-11 13:59:38:185 [UiAutomator2] Using UIAutomator2 server from 'C:\Users\Santhruptha\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk' and test from 'C:\Users\Santhruptha\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+2022-10-11 13:59:38:185 [UiAutomator2] Waiting up to 30000ms for UiAutomator2 to be online...
+2022-10-11 13:59:38:186 [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","emulator-5554","shell","am","instrument","-w","-e","disableAnalytics",true,"io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner"]
+2022-10-11 13:59:38:196 [WD Proxy] Matched '/status' to command name 'getStatus'
+2022-10-11 13:59:38:198 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8201/wd/hub/status] with no body
+2022-10-11 13:59:38:212 [WD Proxy] socket hang up
+2022-10-11 13:59:39:219 [WD Proxy] Matched '/status' to command name 'getStatus'
+2022-10-11 13:59:39:219 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8201/wd/hub/status] with no body
+2022-10-11 13:59:39:225 [WD Proxy] socket hang up
+2022-10-11 13:59:39:256 [Instrumentation] io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:
+2022-10-11 13:59:40:231 [WD Proxy] Matched '/status' to command name 'getStatus'
+2022-10-11 13:59:40:232 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8201/wd/hub/status] with no body
+2022-10-11 13:59:40:241 [WD Proxy] socket hang up
+2022-10-11 13:59:41:243 [WD Proxy] Matched '/status' to command name 'getStatus'
+2022-10-11 13:59:41:244 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8201/wd/hub/status] with no body
+2022-10-11 13:59:41:407 [WD Proxy] Got response with status 200: {"sessionId":"None","value":{"message":"UiAutomator2 Server is ready to accept commands","ready":true}}
+2022-10-11 13:59:41:408 [UiAutomator2] The initialization of the instrumentation process took 3223ms
+2022-10-11 13:59:41:408 [WD Proxy] Matched '/session' to command name 'createSession'
+2022-10-11 13:59:41:408 [WD Proxy] Proxying [POST /session] to [POST http://127.0.0.1:8201/wd/hub/session] with body: {"capabilities":{"firstMatch":[{"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","platform":"ANDROID","app":"./src/main/java/resources/app-debug-3.7.5.apk","autoGrantPermissions":true,"automationName":"UiAutomator2","noReset":true,"udid":"emulator-5554"},"platformName":"android","app":"./src/main/java/resources/app-debug-3.7.5.apk","autoGrantPermissions":true,"automationName":"UiAutomator2","noReset":true,"udid":"emulator-5554","deviceName":"emulator-5554","deviceUDID":"emulator-5554","appPackage":"com.mandir"}],"alwaysMatch":{}}}
+2022-10-11 13:59:41:457 [WD Proxy] Got response with status 200: {"sessionId":"7366865c-4efd-4ea5-92e5-c406862171d5","value":{"capabilities":{"firstMatch":[{"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","platform":"ANDROID","app":"./src/main/java/resources/app-debug-3.7.5.apk","autoGrantPermissions":true,"automationName":"UiAutomator2","noReset":true,"udid":"emulator-5554"},"platformName":"android","app":"./src/main/java/resources/app-debug-3.7.5.apk","autoGrantPermissions":true,"automationName":"UiAutomator2","noReset":true,"udid":"emulator-5554","deviceName":"emulator-5554","deviceUDID":"emulator-5554","appPackage":"com.mandir"}],"alwaysMatch":{}},"sessionId":"7366865c-4efd-4ea5-92e5-c406862171d5"}}
+2022-10-11 13:59:41:458 [WD Proxy] Determined the downstream protocol as 'W3C'
+2022-10-11 13:59:41:475 [WD Proxy] Proxying [GET /appium/device/info] to [GET http://127.0.0.1:8201/wd/hub/session/7366865c-4efd-4ea5-92e5-c406862171d5/appium/device/info] with no body
+2022-10-11 13:59:41:516 [WD Proxy] Got response with status 200: {"sessionId":"7366865c-4efd-4ea5-92e5-c406862171d5","value":{"androidId":"552f43563f2b4976","apiVersion":"31","bluetooth":{"state":"ON"},"brand":"google","carrierName":"T-Mobile","displayDensity":420,"locale":"en_US","manufacturer":"Google","model":"sdk_gphone64_x86_64","networks":[{"capabilities":{"SSID":null,"linkDownBandwidthKbps":30000,"linkUpstreamBandwidthKbps":15000,"networkCapabilities":"NET_CAPABILITY_MMS,NET_CAPABILITY_SUPL,NET_CAPABILITY_DUN,NET_CAPABILITY_FOTA,NET_CAPABILITY_IMS,NET_CAPABILITY_CBS,NET_CAPABILITY_INTERNET,NET_CAPABILITY_NOT_RESTRICTED,NET_CAPABILITY_TRUSTED,NET_CAPABILITY_NOT_VPN,NET_CAPABILITY_VALIDATED,NET_CAPABILITY_NOT_ROAMING,NET_CAPABILITY_NOT_CONGESTED,NET_CAPABILITY_NOT_SUSPENDED","signalStrength":-2147483648,"transportTypes":"TRANSPORT_CELLULAR"},"detailedState":"CONNECTED","extraInfo":"epc.tmobile.com","isAvailable":true,"isConnected":true,"isFailover":false,"isRoaming":false,"state":"CONNECTED","subtype":13,"subtypeName":"LTE","type":0,"typeName":"MOBILE"},{"capabilit...
+2022-10-11 13:59:41:517 [ADB] Running 'C:\Users\Santhruptha\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window'
+2022-10-11 13:59:41:594 [AndroidDriver] Screen already unlocked, doing nothing
+2022-10-11 13:59:41:594 [UiAutomator2] Starting 'com.mandir/com.mandir.ui.activity.SplashActivity and waiting for 'com.mandir/com.mandir.ui.activity.SplashActivity'
+2022-10-11 13:59:41:595 [ADB] Running 'C:\Users\Santhruptha\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am start -W -n com.mandir/com.mandir.ui.activity.SplashActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2022-10-11 13:59:46:985 [ADB] Waiting up to 20000ms for activity matching pkg: 'com.mandir' and activity: 'com.mandir.ui.activity.SplashActivity' to be focused
+2022-10-11 13:59:46:986 [ADB] Possible activities, to be checked: 'com.mandir.ui.activity.SplashActivity', 'com.mandir.com.mandir.ui.activity.SplashActivity'
+2022-10-11 13:59:46:988 [ADB] Getting focused package and activity
+2022-10-11 13:59:46:990 [ADB] Running 'C:\Users\Santhruptha\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-10-11 13:59:47:128 [ADB] Found package: 'com.mandir' and fully qualified activity name : 'com.mandir.ui.activity.SplashActivity'
+2022-10-11 13:59:47:174 [WD Proxy] Proxying [GET /appium/device/pixel_ratio] to [GET http://127.0.0.1:8201/wd/hub/session/7366865c-4efd-4ea5-92e5-c406862171d5/appium/device/pixel_ratio] with no body
+2022-10-11 13:59:47:215 [WD Proxy] Got response with status 200: {"sessionId":"7366865c-4efd-4ea5-92e5-c406862171d5","value":2.625}
+2022-10-11 13:59:47:221 [WD Proxy] Matched '/appium/device/system_bars' to command name 'getSystemBars'
+2022-10-11 13:59:47:223 [WD Proxy] Proxying [GET /appium/device/system_bars] to [GET http://127.0.0.1:8201/wd/hub/session/7366865c-4efd-4ea5-92e5-c406862171d5/appium/device/system_bars] with no body
+2022-10-11 13:59:47:255 [WD Proxy] Got response with status 200: {"sessionId":"7366865c-4efd-4ea5-92e5-c406862171d5","value":{"statusBar":63}}
+2022-10-11 13:59:47:257 [WD Proxy] Matched '/window/current/size' to command name 'getWindowSize'
+2022-10-11 13:59:47:257 [WD Proxy] Proxying [GET /window/current/size] to [GET http://127.0.0.1:8201/wd/hub/session/7366865c-4efd-4ea5-92e5-c406862171d5/window/current/size] with no body
+2022-10-11 13:59:47:282 [WD Proxy] Got response with status 200: {"sessionId":"7366865c-4efd-4ea5-92e5-c406862171d5","value":{"height":1794,"width":1080}}
+2022-10-11 13:59:47:283 [Appium] New AndroidUiautomator2Driver session created successfully, session 2b5da92c-aefe-46ea-a1d0-299b4e7c8431 added to master session list
+2022-10-11 13:59:47:286 [BaseDriver] Event 'newSessionStarted' logged at 1665496787285 (19:29:47 GMT+0530 (India Standard Time))
+2022-10-11 13:59:47:287 [W3C (2b5da92c)] Cached the protocol value 'W3C' for the new session 2b5da92c-aefe-46ea-a1d0-299b4e7c8431
+2022-10-11 13:59:47:288 [W3C (2b5da92c)] Responding to client with driver.createSession() result: {"capabilities":{"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","platform":"ANDROID","app":"./src/main/java/resources/app-debug-3.7.5.apk","autoGrantPermissions":true,"automationName":"UiAutomator2","noReset":true,"udid":"emulator-5554"},"platformName":"android","app":"./src/main/java/resources/app-debug-3.7.5.apk","autoGrantPermissions":true,"automationName":"UiAutomator2","noReset":true,"udid":"emulator-5554","deviceName":"emulator-5554","deviceUDID":"emulator-5554","appPackage":"com.mandir","deviceApiLevel":31,"platformVersion":"12","deviceScreenSize":"1080x1920","deviceScreenDensity":420,"deviceModel":"sdk_gphone64_x86_64","deviceManufacturer":"Google","pixelRatio":2.625,"statBarHeight":63,"viewportRect":{"left":0,"top":63,"width":1080,"height":1731}}}
+2022-10-11 13:59:47:292 [HTTP] <-- POST /wd/hub/session 200 20159 ms - 1012
+2022-10-11 13:59:47:292 [HTTP] 
+2022-10-11 13:59:47:400 [HTTP] --> GET /wd/hub/session/2b5da92c-aefe-46ea-a1d0-299b4e7c8431
+2022-10-11 13:59:47:400 [HTTP] {}
+2022-10-11 13:59:47:403 [W3C (2b5da92c)] Calling AppiumDriver.getSession() with args: ["2b5da92c-aefe-46ea-a1d0-299b4e7c8431"]
+2022-10-11 13:59:47:405 [UiAutomator2] Getting session details from server to mix in
+2022-10-11 13:59:47:405 [WD Proxy] Matched '/' to command name 'getSession'
+2022-10-11 13:59:47:405 [WD Proxy] Proxying [GET /] to [GET http://127.0.0.1:8201/wd/hub/session/7366865c-4efd-4ea5-92e5-c406862171d5] with no body
+2022-10-11 13:59:47:432 [WD Proxy] Got response with status 200: {"sessionId":"7366865c-4efd-4ea5-92e5-c406862171d5","value":{"lastScrollData":null}}
+2022-10-11 13:59:47:434 [W3C (2b5da92c)] Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","platform":"ANDROID","app":"./src/main/java/resources/app-debug-3.7.5.apk","autoGrantPermissions":true,"automationName":"UiAutomator2","noReset":true,"udid":"emulator-5554"},"platformName":"android","app":"./src/main/java/resources/app-debug-3.7.5.apk","autoGrantPermissions":true,"automationName":"UiAutomator2","noReset":true,"udid":"emulator-5554","deviceName":"emulator-5554","deviceUDID":"emulator-5554","appPackage":"com.mandir","deviceApiLevel":31,"platformVersion":"12","deviceScreenSize":"1080x1920","deviceScreenDensity":420,"deviceModel":"sdk_gphone64_x86_64","deviceManufacturer":"Google","pixelRatio":2.625,"statBarHeight":63,"viewportRect":{"left":0,"top":63,"width":1080,"height":1731},"lastScrollData":null}
+2022-10-11 13:59:47:438 [HTTP] <-- GET /wd/hub/session/2b5da92c-aefe-46ea-a1d0-299b4e7c8431 200 36 ms - 966
+2022-10-11 13:59:47:439 [HTTP] 
+2022-10-11 13:59:47:454 [HTTP] --> GET /wd/hub/session/2b5da92c-aefe-46ea-a1d0-299b4e7c8431
+2022-10-11 13:59:47:454 [HTTP] {}
+2022-10-11 13:59:47:456 [W3C (2b5da92c)] Calling AppiumDriver.getSession() with args: ["2b5da92c-aefe-46ea-a1d0-299b4e7c8431"]
+2022-10-11 13:59:47:458 [UiAutomator2] Getting session details from server to mix in
+2022-10-11 13:59:47:458 [WD Proxy] Matched '/' to command name 'getSession'
+2022-10-11 13:59:47:459 [WD Proxy] Proxying [GET /] to [GET http://127.0.0.1:8201/wd/hub/session/7366865c-4efd-4ea5-92e5-c406862171d5] with no body
+2022-10-11 13:59:47:479 [WD Proxy] Got response with status 200: {"sessionId":"7366865c-4efd-4ea5-92e5-c406862171d5","value":{"lastScrollData":null}}
+2022-10-11 13:59:47:482 [W3C (2b5da92c)] Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","platform":"ANDROID","app":"./src/main/java/resources/app-debug-3.7.5.apk","autoGrantPermissions":true,"automationName":"UiAutomator2","noReset":true,"udid":"emulator-5554"},"platformName":"android","app":"./src/main/java/resources/app-debug-3.7.5.apk","autoGrantPermissions":true,"automationName":"UiAutomator2","noReset":true,"udid":"emulator-5554","deviceName":"emulator-5554","deviceUDID":"emulator-5554","appPackage":"com.mandir","deviceApiLevel":31,"platformVersion":"12","deviceScreenSize":"1080x1920","deviceScreenDensity":420,"deviceModel":"sdk_gphone64_x86_64","deviceManufacturer":"Google","pixelRatio":2.625,"statBarHeight":63,"viewportRect":{"left":0,"top":63,"width":1080,"height":1731},"lastScrollData":null}
+2022-10-11 13:59:47:484 [HTTP] <-- GET /wd/hub/session/2b5da92c-aefe-46ea-a1d0-299b4e7c8431 200 30 ms - 966
+2022-10-11 13:59:47:484 [HTTP] 
+2022-10-11 13:59:47:504 [HTTP] --> POST /wd/hub/session/2b5da92c-aefe-46ea-a1d0-299b4e7c8431/timeouts
+2022-10-11 13:59:47:504 [HTTP] {"implicit":50000}
+2022-10-11 13:59:47:510 [W3C (2b5da92c)] Calling AppiumDriver.timeouts() with args: [null,null,null,null,50000,"2b5da92c-aefe-46ea-a1d0-299b4e7c8431"]
+2022-10-11 13:59:47:512 [BaseDriver] W3C timeout argument: {"implicit":50000}}
+2022-10-11 13:59:47:513 [BaseDriver] Set implicit wait to 50000ms
+2022-10-11 13:59:47:514 [W3C (2b5da92c)] Responding to client with driver.timeouts() result: null
+2022-10-11 13:59:47:516 [HTTP] <-- POST /wd/hub/session/2b5da92c-aefe-46ea-a1d0-299b4e7c8431/timeouts 200 12 ms - 14
+2022-10-11 13:59:47:516 [HTTP] 
+2022-10-11 13:59:53:631 [HTTP] --> POST /wd/hub/session/2b5da92c-aefe-46ea-a1d0-299b4e7c8431/element
+2022-10-11 13:59:53:631 [HTTP] {"using":"id","value":"com.mandir:id/iv_gods"}
+2022-10-11 13:59:53:640 [W3C (2b5da92c)] Calling AppiumDriver.findElement() with args: ["id","com.mandir:id/iv_gods","2b5da92c-aefe-46ea-a1d0-299b4e7c8431"]
+2022-10-11 13:59:53:641 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2022-10-11 13:59:53:642 [BaseDriver] Waiting up to 50000 ms for condition
+2022-10-11 13:59:53:643 [WD Proxy] Matched '/element' to command name 'findElement'
+2022-10-11 13:59:53:644 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8201/wd/hub/session/7366865c-4efd-4ea5-92e5-c406862171d5/element] with body: {"strategy":"id","selector":"com.mandir:id/iv_gods","context":"","multiple":false}
+2022-10-11 13:59:58:128 [WD Proxy] Got response with status 200: {"sessionId":"7366865c-4efd-4ea5-92e5-c406862171d5","value":{"ELEMENT":"00000000-0000-0020-ffff-ffff0000012e","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0020-ffff-ffff0000012e"}}
+2022-10-11 13:59:58:129 [W3C (2b5da92c)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0020-ffff-ffff0000012e","ELEMENT":"00000000-0000-0020-ffff-ffff0000012e"}
+2022-10-11 13:59:58:131 [HTTP] <-- POST /wd/hub/session/2b5da92c-aefe-46ea-a1d0-299b4e7c8431/element 200 4499 ms - 137
+2022-10-11 13:59:58:135 [HTTP] 
+2022-10-11 13:59:58:159 [HTTP] --> POST /wd/hub/session/2b5da92c-aefe-46ea-a1d0-299b4e7c8431/element
+2022-10-11 13:59:58:159 [HTTP] {"using":"id","value":"com.mandir:id/iv_gods"}
+2022-10-11 13:59:58:164 [W3C (2b5da92c)] Calling AppiumDriver.findElement() with args: ["id","com.mandir:id/iv_gods","2b5da92c-aefe-46ea-a1d0-299b4e7c8431"]
+2022-10-11 13:59:58:165 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2022-10-11 13:59:58:165 [BaseDriver] Waiting up to 50000 ms for condition
+2022-10-11 13:59:58:166 [WD Proxy] Matched '/element' to command name 'findElement'
+2022-10-11 13:59:58:166 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8201/wd/hub/session/7366865c-4efd-4ea5-92e5-c406862171d5/element] with body: {"strategy":"id","selector":"com.mandir:id/iv_gods","context":"","multiple":false}
+2022-10-11 13:59:58:519 [WD Proxy] Got response with status 200: {"sessionId":"7366865c-4efd-4ea5-92e5-c406862171d5","value":{"ELEMENT":"00000000-0000-0020-ffff-ffff0000012e","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0020-ffff-ffff0000012e"}}
+2022-10-11 13:59:58:521 [W3C (2b5da92c)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0020-ffff-ffff0000012e","ELEMENT":"00000000-0000-0020-ffff-ffff0000012e"}
+2022-10-11 13:59:58:524 [HTTP] <-- POST /wd/hub/session/2b5da92c-aefe-46ea-a1d0-299b4e7c8431/element 200 364 ms - 137
+2022-10-11 13:59:58:524 [HTTP] 
+2022-10-11 13:59:58:531 [HTTP] --> GET /wd/hub/session/2b5da92c-aefe-46ea-a1d0-299b4e7c8431/element/00000000-0000-0020-ffff-ffff0000012e/displayed
+2022-10-11 13:59:58:532 [HTTP] {}
+2022-10-11 13:59:58:535 [W3C (2b5da92c)] Calling AppiumDriver.elementDisplayed() with args: ["00000000-0000-0020-ffff-ffff0000012e","2b5da92c-aefe-46ea-a1d0-299b4e7c8431"]
+2022-10-11 13:59:58:538 [WD Proxy] Matched '/element/00000000-0000-0020-ffff-ffff0000012e/attribute/displayed' to command name 'getAttribute'
+2022-10-11 13:59:58:539 [WD Proxy] Proxying [GET /element/00000000-0000-0020-ffff-ffff0000012e/attribute/displayed] to [GET http://127.0.0.1:8201/wd/hub/session/7366865c-4efd-4ea5-92e5-c406862171d5/element/00000000-0000-0020-ffff-ffff0000012e/attribute/displayed] with no body
+2022-10-11 13:59:58:641 [WD Proxy] Got response with status 200: {"sessionId":"7366865c-4efd-4ea5-92e5-c406862171d5","value":"true"}
+2022-10-11 13:59:58:642 [W3C (2b5da92c)] Responding to client with driver.elementDisplayed() result: true
+2022-10-11 13:59:58:645 [HTTP] <-- GET /wd/hub/session/2b5da92c-aefe-46ea-a1d0-299b4e7c8431/element/00000000-0000-0020-ffff-ffff0000012e/displayed 200 112 ms - 14
+2022-10-11 13:59:58:645 [HTTP] 
+2022-10-11 13:59:58:656 [HTTP] --> POST /wd/hub/session/2b5da92c-aefe-46ea-a1d0-299b4e7c8431/element
+2022-10-11 13:59:58:657 [HTTP] {"using":"id","value":"com.mandir:id/iv_gods"}
+2022-10-11 13:59:58:658 [W3C (2b5da92c)] Calling AppiumDriver.findElement() with args: ["id","com.mandir:id/iv_gods","2b5da92c-aefe-46ea-a1d0-299b4e7c8431"]
+2022-10-11 13:59:58:661 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2022-10-11 13:59:58:662 [BaseDriver] Waiting up to 50000 ms for condition
+2022-10-11 13:59:58:663 [WD Proxy] Matched '/element' to command name 'findElement'
+2022-10-11 13:59:58:664 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8201/wd/hub/session/7366865c-4efd-4ea5-92e5-c406862171d5/element] with body: {"strategy":"id","selector":"com.mandir:id/iv_gods","context":"","multiple":false}
+2022-10-11 13:59:58:884 [WD Proxy] Got response with status 200: {"sessionId":"7366865c-4efd-4ea5-92e5-c406862171d5","value":{"ELEMENT":"00000000-0000-0020-ffff-ffff0000012e","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0020-ffff-ffff0000012e"}}
+2022-10-11 13:59:58:886 [W3C (2b5da92c)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0020-ffff-ffff0000012e","ELEMENT":"00000000-0000-0020-ffff-ffff0000012e"}
+2022-10-11 13:59:58:889 [HTTP] <-- POST /wd/hub/session/2b5da92c-aefe-46ea-a1d0-299b4e7c8431/element 200 231 ms - 137
+2022-10-11 13:59:58:890 [HTTP] 
+2022-10-11 13:59:58:896 [HTTP] --> GET /wd/hub/session/2b5da92c-aefe-46ea-a1d0-299b4e7c8431/element/00000000-0000-0020-ffff-ffff0000012e/enabled
+2022-10-11 13:59:58:896 [HTTP] {}
+2022-10-11 13:59:58:901 [W3C (2b5da92c)] Calling AppiumDriver.elementEnabled() with args: ["00000000-0000-0020-ffff-ffff0000012e","2b5da92c-aefe-46ea-a1d0-299b4e7c8431"]
+2022-10-11 13:59:58:904 [WD Proxy] Matched '/element/00000000-0000-0020-ffff-ffff0000012e/attribute/enabled' to command name 'getAttribute'
+2022-10-11 13:59:58:904 [WD Proxy] Proxying [GET /element/00000000-0000-0020-ffff-ffff0000012e/attribute/enabled] to [GET http://127.0.0.1:8201/wd/hub/session/7366865c-4efd-4ea5-92e5-c406862171d5/element/00000000-0000-0020-ffff-ffff0000012e/attribute/enabled] with no body
+2022-10-11 13:59:58:991 [WD Proxy] Got response with status 200: {"sessionId":"7366865c-4efd-4ea5-92e5-c406862171d5","value":"true"}
+2022-10-11 13:59:58:993 [W3C (2b5da92c)] Responding to client with driver.elementEnabled() result: true
+2022-10-11 13:59:58:995 [HTTP] <-- GET /wd/hub/session/2b5da92c-aefe-46ea-a1d0-299b4e7c8431/element/00000000-0000-0020-ffff-ffff0000012e/enabled 200 98 ms - 14
+2022-10-11 13:59:58:996 [HTTP] 
+2022-10-11 13:59:59:000 [HTTP] --> GET /wd/hub/session/2b5da92c-aefe-46ea-a1d0-299b4e7c8431/screenshot
+2022-10-11 13:59:59:001 [HTTP] {}
+2022-10-11 13:59:59:003 [W3C (2b5da92c)] Calling AppiumDriver.getScreenshot() with args: ["2b5da92c-aefe-46ea-a1d0-299b4e7c8431"]
+2022-10-11 13:59:59:004 [WD Proxy] Matched '/screenshot' to command name 'getScreenshot'
+2022-10-11 13:59:59:005 [WD Proxy] Proxying [GET /screenshot] to [GET http://127.0.0.1:8201/wd/hub/session/7366865c-4efd-4ea5-92e5-c406862171d5/screenshot] with no body
+2022-10-11 14:00:01:722 [WD Proxy] Got response with status 200: {"sessionId":"7366865c-4efd-4ea5-92e5-c406862171d5","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAAeACAYAAAArYecKAAAAAXNSR0IArs4c6QAAAARzQklUCAgI\nCHwIZIgAACAASURBVHic7L13lCTZXef7uWHSZ5a37ap9z3TPaIxGMyOBGDmcgMU8kHYR72HESoAW\nluW9x+47u+zB7UHLHhZ2WZ5WgMQDCYQQSGiFsPJmZjS+Z7qnva3u8lVZlT4zIu77o6q6q7IzMkxG\nZGZV1/ecmc6KuHHt7/7u735/vxshLn44ImkXhMt09TVy+1x9+iBatrHsuvyEsCnGrlxxZ5ZOj3lt\n+paDwH3DW5ULN2hHGfX5e5FTO9l26i8vQlefr5t8drCKVvtq/fkg+rk+D7/60M1cbJS+WRqnfgqj\nTK/rQqP0bsbFKb3dfS/XHdaYpmns0gcNrzrKLo1T3s10W7v7o75eQVtXXtvjJT83eXqdl07Penm+\n1fKd8myfJXx3oH7+bby+jmb2XyfGw6sR3ix9M/3j115zAzdrQ9DPBjRW0vaPtWqEuF65MR28PGOb\nsJkOb4et7dV2CMqObJSHX07A5bOay+zbi27aRNkM5saJdocu9qCc7dYAxyrJcCd7IAjaGOn29oaN\njXLlJGN293b6P1x46SO/G2i7Z+sRlIHYKUPTj7w1mxftasfGOrgt002dO2H0+9nwekG9TrMrt12b\n0CCcK17H3i+ayUOYxrHfvIMyjINu2w6xETxa1XvbAfVy2g77yUt/NrI7vNQxBGKqafEdsD8DJTY2\nXrPL2Kv9GOT8ccorjDXZrT732VbF+yNbAJLOK06bQfOz/9kIeet/WxStMHbtgLD5HXZZftJ61b5e\n+7SdfbED9+j2cfHiKQ+q/ls5yqjThIwd3JQfVBRBOzyEzYzKIKILOgEv64Lf/JqhW7zsdthqumA7\nICjSvRNj55WUCKOO7SAQm0UO...
+2022-10-11 14:00:01:739 [W3C (2b5da92c)] Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAABDgAAAeACAYAAAArYecKAAAAAXNSR0IArs4c6QAAAARzQklUCAgI\nCHwIZIgAACAASURBVHic7L13lCTZXef7uWHSZ5a37ap9z3TPaIxGMyOBGDmcgMU8kHYR72HESoAW\nluW9x+47u+zB7UHLHhZ2WZ5WgMQDCYQQSGiFsPJmZjS+Z7qnva3u8lVZlT4zIu77o6q6q7IzMkxG\nZGZV1/ecmc6KuHHt7/7u735/vxshLn44ImkXhMt09TVy+1x9+iBatrHsuvyEsCnGrlxxZ5ZOj3lt\n+paDwH3DW5ULN2hHGfX5e5FTO9l26i8vQlefr5t8drCKVvtq/fkg+rk+D7/60M1cbJS+WRqnfgqj\nTK/rQqP0bsbFKb3dfS/XHdaYpmns0gcNrzrKLo1T3s10W7v7o75eQVtXXtvjJT83eXqdl07Penm+\n1fKd8myfJXx3oH7+bby+jmb2XyfGw6sR3ix9M/3j115zAzdrQ9DPBjRW0vaPtWqEuF65MR28PGOb\nsJkOb4et7dV2CMqObJSHX07A5bOay+zbi27aRNkM5saJdocu9qCc7dYAxyrJcCd7IAjaGOn29oaN\njXLlJGN293b6P1x46SO/G2i7Z+sRlIHYKUPTj7w1mxftasfGOrgt002dO2H0+9nwekG9TrMrt12b\n0CCcK17H3i+ayUOYxrHfvIMyjINu2w6xETxa1XvbAfVy2g77yUt/NrI7vNQxBGKqafEdsD8DJTY2\nXrPL2Kv9GOT8ccorjDXZrT732VbF+yNbAJLOK06bQfOz/9kIeet/WxStMHbtgLD5HXZZftJ61b5e\n+7SdfbED9+j2cfHiKQ+q/ls5yqjThIwd3JQfVBRBOzyEzYzKIKILOgEv64Lf/JqhW7zsdthqumA7\nICjSvRNj55WUCKOO7SAQm0UO+C0r6L7YqJe3IrnRauHdpLuaEf9+HVGtPOPyef8RHF7DtroFjcJt\nnCINGn...
+2022-10-11 14:00:01:765 [HTTP] <-- GET /wd/hub/session/2b5da92c-aefe-46ea-a1d0-299b4e7c8431/screenshot 200 2761 ms - 3008428
+2022-10-11 14:00:01:766 [HTTP] 
+2022-10-11 14:00:05:049 [HTTP] --> POST /wd/hub/session/2b5da92c-aefe-46ea-a1d0-299b4e7c8431/appium/app/close
+2022-10-11 14:00:05:050 [HTTP] {}
+2022-10-11 14:00:05:060 [W3C (2b5da92c)] Calling AppiumDriver.closeApp() with args: ["2b5da92c-aefe-46ea-a1d0-299b4e7c8431"]
+2022-10-11 14:00:05:061 [ADB] Running 'C:\Users\Santhruptha\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am force-stop com.mandir'
+2022-10-11 14:00:05:257 [W3C (2b5da92c)] Responding to client with driver.closeApp() result: null
+2022-10-11 14:00:05:260 [HTTP] <-- POST /wd/hub/session/2b5da92c-aefe-46ea-a1d0-299b4e7c8431/appium/app/close 200 209 ms - 14
+2022-10-11 14:00:05:260 [HTTP] 

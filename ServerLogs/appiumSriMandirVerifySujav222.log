@@ -1,0 +1,332 @@
+2022-10-21 08:02:31:994 [Appium] Welcome to Appium v1.22.3
+2022-10-21 08:02:31:995 [Appium] Non-default server args:
+2022-10-21 08:02:31:996 [Appium]   address: 127.0.0.1
+2022-10-21 08:02:31:996 [Appium]   port: 26795
+2022-10-21 08:02:31:996 [Appium]   logFile: C:\Users\Shilpa\Documents\New_Sri_Mandir\SRI_MANDIR(Different languages)\.\ServerLogs\appiumSriMandirVerifySujav222.log
+2022-10-21 08:02:32:022 [Appium] Appium REST http interface listener started on 127.0.0.1:26795
+2022-10-21 08:02:32:249 [HTTP] --> GET /wd/hub/status
+2022-10-21 08:02:32:250 [HTTP] {}
+2022-10-21 08:02:32:251 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2022-10-21 08:02:32:252 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.22.3"}}
+2022-10-21 08:02:32:257 [HTTP] <-- GET /wd/hub/status 200 6 ms - 68
+2022-10-21 08:02:32:257 [HTTP] 
+2022-10-21 08:02:32:733 [HTTP] --> POST /wd/hub/session
+2022-10-21 08:02:32:733 [HTTP] {"desiredCapabilities":{"app":"./src/main/java/resources/app-debug-3.8.0.apk","noReset":true,"automationName":"UiAutomator2","autoGrantPermissions":true,"platformName":"Android","udid":"emulator-5554","platform":"ANDROID"},"capabilities":{"firstMatch":[{"appium:app":"./src/main/java/resources/app-debug-3.8.0.apk","appium:autoGrantPermissions":true,"appium:automationName":"UiAutomator2","appium:noReset":true,"platform":"ANDROID","platformName":"android","appium:udid":"emulator-5554"}]}}
+2022-10-21 08:02:32:734 [W3C] Calling AppiumDriver.createSession() with args: [{"app":"./src/main/java/resources/app-debug-3.8.0.apk","noReset":true,"automationName":"UiAutomator2","autoGrantPermissions":true,"platformName":"Android","udid":"emulator-5554","platform":"ANDROID"},null,{"firstMatch":[{"appium:app":"./src/main/java/resources/app-debug-3.8.0.apk","appium:autoGrantPermissions":true,"appium:automationName":"UiAutomator2","appium:noReset":true,"platform":"ANDROID","platformName":"android","appium:udid":"emulator-5554"}]}]
+2022-10-21 08:02:32:735 [BaseDriver] Event 'newSessionRequested' logged at 1666339352734 (13:32:32 GMT+0530 (India Standard Time))
+2022-10-21 08:02:32:737 [BaseDriver] The following capabilities are not standard capabilities and should have an extension prefix:
+2022-10-21 08:02:32:738 [BaseDriver]   platform
+2022-10-21 08:02:32:997 [Appium] Appium v1.22.3 creating new AndroidUiautomator2Driver (v1.70.1) session
+2022-10-21 08:02:33:000 [BaseDriver] W3C capabilities and MJSONWP desired capabilities were provided
+2022-10-21 08:02:33:000 [BaseDriver] Creating session with W3C capabilities: {
+2022-10-21 08:02:33:000 [BaseDriver]   "alwaysMatch": {
+2022-10-21 08:02:33:001 [BaseDriver]     "appium:platform": "ANDROID",
+2022-10-21 08:02:33:001 [BaseDriver]     "platformName": "android",
+2022-10-21 08:02:33:001 [BaseDriver]     "appium:app": "./src/main/java/resources/app-debug-3.8.0.apk",
+2022-10-21 08:02:33:001 [BaseDriver]     "appium:autoGrantPermissions": true,
+2022-10-21 08:02:33:001 [BaseDriver]     "appium:automationName": "UiAutomator2",
+2022-10-21 08:02:33:001 [BaseDriver]     "appium:noReset": true,
+2022-10-21 08:02:33:001 [BaseDriver]     "appium:udid": "emulator-5554"
+2022-10-21 08:02:33:001 [BaseDriver]   },
+2022-10-21 08:02:33:001 [BaseDriver]   "firstMatch": [
+2022-10-21 08:02:33:001 [BaseDriver]     {}
+2022-10-21 08:02:33:001 [BaseDriver]   ]
+2022-10-21 08:02:33:002 [BaseDriver] }
+2022-10-21 08:02:33:007 [BaseDriver] The following capabilities were provided, but are not recognized by Appium:
+2022-10-21 08:02:33:007 [BaseDriver]   platform
+2022-10-21 08:02:33:008 [BaseDriver] Session created with session id: 0cef93f4-50e5-427a-b107-4f9d37da2c7d
+2022-10-21 08:02:33:011 [BaseDriver] Using local app './src/main/java/resources/app-debug-3.8.0.apk'
+2022-10-21 08:02:33:011 [BaseDriver] The current application path './src/main/java/resources/app-debug-3.8.0.apk' is not absolute and has been rewritten to 'C:\Users\Shilpa\Documents\New_Sri_Mandir\SRI_MANDIR(Different languages)\src\main\java\resources\app-debug-3.8.0.apk'. Consider using absolute paths rather than relative
+2022-10-21 08:02:33:011 [UiAutomator2] Checking whether app is actually present
+2022-10-21 08:02:33:030 [ADB] Found 2 'build-tools' folders under 'C:\Users\Shilpa\AppData\Local\Android\Sdk' (newest first):
+2022-10-21 08:02:33:030 [ADB]     C:/Users/Shilpa/AppData/Local/Android/Sdk/build-tools/33.0.0
+2022-10-21 08:02:33:031 [ADB]     C:/Users/Shilpa/AppData/Local/Android/Sdk/build-tools/30.0.3
+2022-10-21 08:02:33:031 [ADB] Using 'adb.exe' from 'C:\Users\Shilpa\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+2022-10-21 08:02:33:032 [ADB] Running 'C:\Users\Shilpa\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 start-server'
+2022-10-21 08:02:33:055 [AndroidDriver] Retrieving device list
+2022-10-21 08:02:33:055 [ADB] Trying to find a connected android device
+2022-10-21 08:02:33:056 [ADB] Getting connected devices
+2022-10-21 08:02:33:080 [ADB] Connected devices: [{"udid":"emulator-5554","state":"device"}]
+2022-10-21 08:02:33:081 [AndroidDriver] Using device: emulator-5554
+2022-10-21 08:02:33:082 [ADB] Using 'adb.exe' from 'C:\Users\Shilpa\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+2022-10-21 08:02:33:082 [ADB] Running 'C:\Users\Shilpa\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 start-server'
+2022-10-21 08:02:33:105 [ADB] Setting device id to emulator-5554
+2022-10-21 08:02:33:106 [ADB] Running 'C:\Users\Shilpa\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell getprop ro.build.version.sdk'
+2022-10-21 08:02:33:174 [ADB] Current device property 'ro.build.version.sdk': 31
+2022-10-21 08:02:33:174 [ADB] Getting device platform version
+2022-10-21 08:02:33:174 [ADB] Running 'C:\Users\Shilpa\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell getprop ro.build.version.release'
+2022-10-21 08:02:33:235 [ADB] Current device property 'ro.build.version.release': 12
+2022-10-21 08:02:33:235 [ADB] Device API level: 31
+2022-10-21 08:02:33:235 [UiAutomator2] Relaxing hidden api policy
+2022-10-21 08:02:33:236 [ADB] Running 'C:\Users\Shilpa\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell 'settings put global hidden_api_policy_pre_p_apps 1;settings put global hidden_api_policy_p_apps 1;settings put global hidden_api_policy 1''
+2022-10-21 08:02:33:361 [AndroidDriver] Parsing package and activity from app manifest
+2022-10-21 08:02:33:394 [ADB] Package name: 'com.mandir'
+2022-10-21 08:02:33:394 [ADB] Main activity name: 'com.mandir.ui.activity.SplashActivity'
+2022-10-21 08:02:33:394 [AndroidDriver] Parsed package and activity are: com.mandir/com.mandir.ui.activity.SplashActivity
+2022-10-21 08:02:33:395 [ADB] Running 'C:\Users\Shilpa\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 wait-for-device'
+2022-10-21 08:02:33:420 [ADB] Running 'C:\Users\Shilpa\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell echo ping'
+2022-10-21 08:02:33:471 [AndroidDriver] Pushing settings apk to device...
+2022-10-21 08:02:33:472 [ADB] Getting install status for io.appium.settings
+2022-10-21 08:02:33:472 [ADB] Running 'C:\Users\Shilpa\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package io.appium.settings'
+2022-10-21 08:02:34:017 [ADB] 'io.appium.settings' is installed
+2022-10-21 08:02:34:018 [ADB] Getting package info for 'io.appium.settings'
+2022-10-21 08:02:34:018 [ADB] Running 'C:\Users\Shilpa\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package io.appium.settings'
+2022-10-21 08:02:34:103 [ADB] The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('3.4.0' >= '3.4.0')
+2022-10-21 08:02:34:103 [ADB] There is no need to install/upgrade 'C:\Users\Shilpa\AppData\Roaming\npm\node_modules\appium\node_modules\io.appium.settings\apks\settings_apk-debug.apk'
+2022-10-21 08:02:34:103 [ADB] Getting IDs of all 'io.appium.settings' processes
+2022-10-21 08:02:34:103 [ADB] Running 'C:\Users\Shilpa\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell 'pgrep --help; echo $?''
+2022-10-21 08:02:34:187 [ADB] Running 'C:\Users\Shilpa\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pgrep -f \(\[\[:blank:\]\]\|\^\)io\.appium\.settings\(\[\[:blank:\]\]\|\$\)'
+2022-10-21 08:02:34:266 [AndroidDriver] io.appium.settings is already running. There is no need to reset its permissions.
+2022-10-21 08:02:34:266 [Logcat] Starting logs capture with command: C:\\Users\\Shilpa\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 logcat -v threadtime
+2022-10-21 08:02:34:346 [UiAutomator2] Forwarding UiAutomator2 Server port 6790 to local port 8206
+2022-10-21 08:02:34:347 [ADB] Forwarding system: 8206 to device: 6790
+2022-10-21 08:02:34:347 [ADB] Running 'C:\Users\Shilpa\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 forward tcp:8206 tcp:6790'
+2022-10-21 08:02:34:381 [ADB] Getting install status for io.appium.uiautomator2.server
+2022-10-21 08:02:34:381 [ADB] Running 'C:\Users\Shilpa\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package io.appium.uiautomator2.server'
+2022-10-21 08:02:34:494 [ADB] 'io.appium.uiautomator2.server' is installed
+2022-10-21 08:02:34:494 [ADB] Getting package info for 'io.appium.uiautomator2.server'
+2022-10-21 08:02:34:494 [ADB] Running 'C:\Users\Shilpa\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package io.appium.uiautomator2.server'
+2022-10-21 08:02:34:814 [ADB] The version name of the installed 'io.appium.uiautomator2.server' is greater or equal to the application version name ('4.27.0' >= '4.27.0')
+2022-10-21 08:02:34:815 [UiAutomator2] io.appium.uiautomator2.server installation state: sameVersionInstalled
+2022-10-21 08:02:34:815 [ADB] Checking app cert for C:\Users\Shilpa\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk
+2022-10-21 08:02:34:847 [ADB] Using 'apksigner.jar' from 'C:\Users\Shilpa\AppData\Local\Android\Sdk\build-tools\33.0.0\lib\apksigner.jar'
+2022-10-21 08:02:34:849 [ADB] Starting apksigner: 'C:\\Program Files\\Java\\jdk1.8.0_291\\bin\\java.exe' -Xmx1024M -Xss1m -jar C:\\Users\\Shilpa\\AppData\\Local\\Android\\Sdk\\build-tools\\33.0.0\\lib\\apksigner.jar verify --print-certs C:\\Users\\Shilpa\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v4.27.0.apk
+2022-10-21 08:02:35:871 [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+2022-10-21 08:02:35:871 [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+2022-10-21 08:02:35:872 [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+2022-10-21 08:02:35:872 [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+2022-10-21 08:02:35:872 [ADB] 
+2022-10-21 08:02:35:873 [ADB] sha256 hash did match for 'appium-uiautomator2-server-v4.27.0.apk'
+2022-10-21 08:02:35:873 [ADB] 'C:\Users\Shilpa\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk' is signed with the default certificate
+2022-10-21 08:02:35:873 [ADB] Getting install status for io.appium.uiautomator2.server.test
+2022-10-21 08:02:35:874 [ADB] Running 'C:\Users\Shilpa\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package io.appium.uiautomator2.server.test'
+2022-10-21 08:02:35:986 [ADB] 'io.appium.uiautomator2.server.test' is installed
+2022-10-21 08:02:35:986 [ADB] Checking app cert for C:\Users\Shilpa\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk
+2022-10-21 08:02:35:991 [ADB] Starting apksigner: 'C:\\Program Files\\Java\\jdk1.8.0_291\\bin\\java.exe' -Xmx1024M -Xss1m -jar C:\\Users\\Shilpa\\AppData\\Local\\Android\\Sdk\\build-tools\\33.0.0\\lib\\apksigner.jar verify --print-certs C:\\Users\\Shilpa\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk
+2022-10-21 08:02:36:367 [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+2022-10-21 08:02:36:367 [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+2022-10-21 08:02:36:367 [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+2022-10-21 08:02:36:367 [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+2022-10-21 08:02:36:367 [ADB] 
+2022-10-21 08:02:36:367 [ADB] sha256 hash did match for 'appium-uiautomator2-server-debug-androidTest.apk'
+2022-10-21 08:02:36:367 [ADB] 'C:\Users\Shilpa\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
+2022-10-21 08:02:36:367 [UiAutomator2] Server packages are not going to be (re)installed
+2022-10-21 08:02:36:369 [UiAutomator2] Waiting up to 30000ms for services to be available
+2022-10-21 08:02:36:370 [ADB] Running 'C:\Users\Shilpa\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pm list instrumentation'
+2022-10-21 08:02:36:454 [UiAutomator2] Instrumentation target 'io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner' is available
+2022-10-21 08:02:36:457 [ADB] Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+2022-10-21 08:02:36:457 [ADB] Got the following command chunks to execute: [["dumpsys","deviceidle","whitelist","+io.appium.settings",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server.test",";"]]
+2022-10-21 08:02:36:457 [ADB] Running 'C:\Users\Shilpa\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys deviceidle whitelist +io.appium.settings ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server.test ;'
+2022-10-21 08:02:36:561 [ADB] Checking app cert for C:\Users\Shilpa\Documents\New_Sri_Mandir\SRI_MANDIR(Different languages)\src\main\java\resources\app-debug-3.8.0.apk
+2022-10-21 08:02:36:820 [ADB] Starting apksigner: 'C:\\Program Files\\Java\\jdk1.8.0_291\\bin\\java.exe' -Xmx1024M -Xss1m -jar C:\\Users\\Shilpa\\AppData\\Local\\Android\\Sdk\\build-tools\\33.0.0\\lib\\apksigner.jar verify --print-certs 'C:\\Users\\Shilpa\\Documents\\New_Sri_Mandir\\SRI_MANDIR(Different languages)\\src\\main\\java\\resources\\app-debug-3.8.0.apk'
+2022-10-21 08:02:40:723 [ADB] apksigner stdout: Signer #1 certificate DN: C=US, O=Android, CN=Android Debug
+2022-10-21 08:02:40:724 [ADB] Signer #1 certificate SHA-256 digest: ffe3f74dd4b99b12dd63d207a90d1eb840869ef6f0303daaab8485d82cc377d0
+2022-10-21 08:02:40:724 [ADB] Signer #1 certificate SHA-1 digest: d61e3b86f3eece241d9e58fa90b8a2e151b8685a
+2022-10-21 08:02:40:724 [ADB] Signer #1 certificate MD5 digest: c57e6882d4d2db60bf329c1ab6c9a33c
+2022-10-21 08:02:40:724 [ADB] 
+2022-10-21 08:02:40:724 [ADB] 'C:\Users\Shilpa\Documents\New_Sri_Mandir\SRI_MANDIR(Different languages)\src\main\java\resources\app-debug-3.8.0.apk' is signed with a non-default certificate
+2022-10-21 08:02:40:725 [ADB] Getting install status for com.mandir
+2022-10-21 08:02:40:725 [ADB] Running 'C:\Users\Shilpa\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package com.mandir'
+2022-10-21 08:02:41:207 [ADB] 'com.mandir' is installed
+2022-10-21 08:02:41:207 [ADB] Getting package info for 'com.mandir'
+2022-10-21 08:02:41:207 [ADB] Running 'C:\Users\Shilpa\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package com.mandir'
+2022-10-21 08:02:41:291 [ADB] The version name of the installed 'com.mandir' is greater or equal to the application version name ('3.7.5' >= '3.7.5')
+2022-10-21 08:02:41:292 [ADB] There is no need to install/upgrade 'C:\Users\Shilpa\Documents\New_Sri_Mandir\SRI_MANDIR(Different languages)\src\main\java\resources\app-debug-3.8.0.apk'
+2022-10-21 08:02:41:292 [UiAutomator2] Performing shallow cleanup of automation leftovers
+2022-10-21 08:02:41:324 [UiAutomator2] The following obsolete sessions are still running: ["1afb1df4-c07a-46d4-9a9c-9f12ce8ef655"]
+2022-10-21 08:02:41:326 [UiAutomator2] Cleaning up 1 obsolete session
+2022-10-21 08:02:42:373 [ADB] Running 'C:\Users\Shilpa\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am force-stop io.appium.uiautomator2.server.test'
+2022-10-21 08:02:42:454 [UiAutomator2] Starting UIAutomator2 server 4.27.0
+2022-10-21 08:02:42:455 [UiAutomator2] Using UIAutomator2 server from 'C:\Users\Shilpa\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk' and test from 'C:\Users\Shilpa\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+2022-10-21 08:02:42:455 [UiAutomator2] Waiting up to 30000ms for UiAutomator2 to be online...
+2022-10-21 08:02:42:455 [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","emulator-5554","shell","am","instrument","-w","-e","disableAnalytics",true,"io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner"]
+2022-10-21 08:02:42:463 [WD Proxy] Matched '/status' to command name 'getStatus'
+2022-10-21 08:02:42:464 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8206/wd/hub/status] with no body
+2022-10-21 08:02:42:500 [WD Proxy] socket hang up
+2022-10-21 08:02:43:505 [WD Proxy] Matched '/status' to command name 'getStatus'
+2022-10-21 08:02:43:506 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8206/wd/hub/status] with no body
+2022-10-21 08:02:43:516 [WD Proxy] socket hang up
+2022-10-21 08:02:44:521 [WD Proxy] Matched '/status' to command name 'getStatus'
+2022-10-21 08:02:44:522 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8206/wd/hub/status] with no body
+2022-10-21 08:02:44:543 [WD Proxy] socket hang up
+2022-10-21 08:02:44:894 [Instrumentation] io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:
+2022-10-21 08:02:45:543 [WD Proxy] Matched '/status' to command name 'getStatus'
+2022-10-21 08:02:45:544 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8206/wd/hub/status] with no body
+2022-10-21 08:02:45:566 [WD Proxy] socket hang up
+2022-10-21 08:02:46:580 [WD Proxy] Matched '/status' to command name 'getStatus'
+2022-10-21 08:02:46:580 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8206/wd/hub/status] with no body
+2022-10-21 08:02:46:933 [WD Proxy] Got response with status 200: {"sessionId":"None","value":{"message":"UiAutomator2 Server is ready to accept commands","ready":true}}
+2022-10-21 08:02:46:933 [UiAutomator2] The initialization of the instrumentation process took 4478ms
+2022-10-21 08:02:46:933 [WD Proxy] Matched '/session' to command name 'createSession'
+2022-10-21 08:02:46:934 [WD Proxy] Proxying [POST /session] to [POST http://127.0.0.1:8206/wd/hub/session] with body: {"capabilities":{"firstMatch":[{"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","platform":"ANDROID","app":"./src/main/java/resources/app-debug-3.8.0.apk","autoGrantPermissions":true,"automationName":"UiAutomator2","noReset":true,"udid":"emulator-5554"},"platformName":"android","app":"./src/main/java/resources/app-debug-3.8.0.apk","autoGrantPermissions":true,"automationName":"UiAutomator2","noReset":true,"udid":"emulator-5554","deviceName":"emulator-5554","deviceUDID":"emulator-5554","appPackage":"com.mandir"}],"alwaysMatch":{}}}
+2022-10-21 08:02:47:014 [WD Proxy] Got response with status 200: {"sessionId":"b4049595-2c93-4f55-b96e-726610b7e909","value":{"capabilities":{"firstMatch":[{"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","platform":"ANDROID","app":"./src/main/java/resources/app-debug-3.8.0.apk","autoGrantPermissions":true,"automationName":"UiAutomator2","noReset":true,"udid":"emulator-5554"},"platformName":"android","app":"./src/main/java/resources/app-debug-3.8.0.apk","autoGrantPermissions":true,"automationName":"UiAutomator2","noReset":true,"udid":"emulator-5554","deviceName":"emulator-5554","deviceUDID":"emulator-5554","appPackage":"com.mandir"}],"alwaysMatch":{}},"sessionId":"b4049595-2c93-4f55-b96e-726610b7e909"}}
+2022-10-21 08:02:47:015 [WD Proxy] Determined the downstream protocol as 'W3C'
+2022-10-21 08:02:47:028 [WD Proxy] Proxying [GET /appium/device/info] to [GET http://127.0.0.1:8206/wd/hub/session/b4049595-2c93-4f55-b96e-726610b7e909/appium/device/info] with no body
+2022-10-21 08:02:47:103 [WD Proxy] Got response with status 200: {"sessionId":"b4049595-2c93-4f55-b96e-726610b7e909","value":{"androidId":"b679943b0277a210","apiVersion":"31","bluetooth":{"state":"ON"},"brand":"google","carrierName":"T-Mobile","displayDensity":420,"locale":"en_US","manufacturer":"Google","model":"sdk_gphone64_x86_64","networks":[{"capabilities":{"SSID":null,"linkDownBandwidthKbps":4300,"linkUpstreamBandwidthKbps":1800,"networkCapabilities":"NET_CAPABILITY_MMS,NET_CAPABILITY_SUPL,NET_CAPABILITY_DUN,NET_CAPABILITY_FOTA,NET_CAPABILITY_IMS,NET_CAPABILITY_CBS,NET_CAPABILITY_INTERNET,NET_CAPABILITY_NOT_RESTRICTED,NET_CAPABILITY_TRUSTED,NET_CAPABILITY_NOT_VPN,NET_CAPABILITY_VALIDATED,NET_CAPABILITY_NOT_ROAMING,NET_CAPABILITY_NOT_CONGESTED,NET_CAPABILITY_NOT_SUSPENDED","signalStrength":-2147483648,"transportTypes":"TRANSPORT_CELLULAR"},"detailedState":"CONNECTED","extraInfo":"epc.tmobile.com","isAvailable":true,"isConnected":true,"isFailover":false,"isRoaming":false,"state":"CONNECTED","subtype":10,"subtypeName":"HSPA","type":0,"typeName":"MOBILE"},{"capabiliti...
+2022-10-21 08:02:47:104 [ADB] Running 'C:\Users\Shilpa\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window'
+2022-10-21 08:02:47:194 [AndroidDriver] Screen already unlocked, doing nothing
+2022-10-21 08:02:47:194 [UiAutomator2] Starting 'com.mandir/com.mandir.ui.activity.SplashActivity and waiting for 'com.mandir/com.mandir.ui.activity.SplashActivity'
+2022-10-21 08:02:47:195 [ADB] Running 'C:\Users\Shilpa\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am start -W -n com.mandir/com.mandir.ui.activity.SplashActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2022-10-21 08:02:57:887 [ADB] Waiting up to 20000ms for activity matching pkg: 'com.mandir' and activity: 'com.mandir.ui.activity.SplashActivity' to be focused
+2022-10-21 08:02:57:887 [ADB] Possible activities, to be checked: 'com.mandir.ui.activity.SplashActivity', 'com.mandir.com.mandir.ui.activity.SplashActivity'
+2022-10-21 08:02:57:888 [ADB] Getting focused package and activity
+2022-10-21 08:02:57:888 [ADB] Running 'C:\Users\Shilpa\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-10-21 08:02:57:963 [ADB] Found package: 'com.mandir' and fully qualified activity name : 'com.mandir.v2.main.MainActivity'
+2022-10-21 08:02:57:964 [ADB] Incorrect package and activity. Retrying.
+2022-10-21 08:02:58:476 [ADB] Getting focused package and activity
+2022-10-21 08:02:58:477 [ADB] Running 'C:\Users\Shilpa\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-10-21 08:02:58:571 [ADB] Found package: 'com.mandir' and fully qualified activity name : 'com.mandir.v2.main.MainActivity'
+2022-10-21 08:02:58:572 [ADB] Incorrect package and activity. Retrying.
+2022-10-21 08:02:59:079 [ADB] Getting focused package and activity
+2022-10-21 08:02:59:080 [ADB] Running 'C:\Users\Shilpa\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-10-21 08:02:59:175 [ADB] Found package: 'com.mandir' and fully qualified activity name : 'com.mandir.v2.main.MainActivity'
+2022-10-21 08:02:59:175 [ADB] Incorrect package and activity. Retrying.
+2022-10-21 08:02:59:691 [ADB] Getting focused package and activity
+2022-10-21 08:02:59:692 [ADB] Running 'C:\Users\Shilpa\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-10-21 08:02:59:748 [ADB] Found package: 'com.mandir' and fully qualified activity name : 'com.mandir.v2.main.MainActivity'
+2022-10-21 08:02:59:749 [ADB] Incorrect package and activity. Retrying.
+2022-10-21 08:03:00:257 [ADB] Getting focused package and activity
+2022-10-21 08:03:00:257 [ADB] Running 'C:\Users\Shilpa\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-10-21 08:03:00:337 [ADB] Found package: 'com.mandir' and fully qualified activity name : 'com.mandir.v2.main.MainActivity'
+2022-10-21 08:03:00:338 [ADB] Incorrect package and activity. Retrying.
+2022-10-21 08:03:00:849 [ADB] Getting focused package and activity
+2022-10-21 08:03:00:849 [ADB] Running 'C:\Users\Shilpa\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-10-21 08:03:00:958 [ADB] Found package: 'com.mandir' and fully qualified activity name : 'com.mandir.v2.main.MainActivity'
+2022-10-21 08:03:00:958 [ADB] Incorrect package and activity. Retrying.
+2022-10-21 08:03:01:470 [ADB] Getting focused package and activity
+2022-10-21 08:03:01:470 [ADB] Running 'C:\Users\Shilpa\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-10-21 08:03:01:567 [ADB] Found package: 'com.mandir' and fully qualified activity name : 'com.mandir.v2.main.MainActivity'
+2022-10-21 08:03:01:567 [ADB] Incorrect package and activity. Retrying.
+2022-10-21 08:03:02:078 [ADB] Getting focused package and activity
+2022-10-21 08:03:02:079 [ADB] Running 'C:\Users\Shilpa\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-10-21 08:03:02:140 [ADB] Found package: 'com.mandir' and fully qualified activity name : 'com.mandir.v2.main.MainActivity'
+2022-10-21 08:03:02:141 [ADB] Incorrect package and activity. Retrying.
+2022-10-21 08:03:02:641 [ADB] Getting focused package and activity
+2022-10-21 08:03:02:642 [ADB] Running 'C:\Users\Shilpa\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-10-21 08:03:02:770 [ADB] Found package: 'com.mandir' and fully qualified activity name : 'com.mandir.v2.main.MainActivity'
+2022-10-21 08:03:02:770 [ADB] Incorrect package and activity. Retrying.
+2022-10-21 08:03:03:272 [ADB] Getting focused package and activity
+2022-10-21 08:03:03:272 [ADB] Running 'C:\Users\Shilpa\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-10-21 08:03:03:351 [ADB] Found package: 'com.mandir' and fully qualified activity name : 'com.mandir.v2.main.MainActivity'
+2022-10-21 08:03:03:351 [ADB] Incorrect package and activity. Retrying.
+2022-10-21 08:03:03:858 [ADB] Getting focused package and activity
+2022-10-21 08:03:03:859 [ADB] Running 'C:\Users\Shilpa\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-10-21 08:03:03:953 [ADB] Found package: 'com.mandir' and fully qualified activity name : 'com.mandir.v2.main.MainActivity'
+2022-10-21 08:03:03:954 [ADB] Incorrect package and activity. Retrying.
+2022-10-21 08:03:04:462 [ADB] Getting focused package and activity
+2022-10-21 08:03:04:463 [ADB] Running 'C:\Users\Shilpa\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-10-21 08:03:04:606 [ADB] Found package: 'com.mandir' and fully qualified activity name : 'com.mandir.v2.main.MainActivity'
+2022-10-21 08:03:04:607 [ADB] Incorrect package and activity. Retrying.
+2022-10-21 08:03:05:118 [ADB] Getting focused package and activity
+2022-10-21 08:03:05:119 [ADB] Running 'C:\Users\Shilpa\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-10-21 08:03:05:229 [ADB] Found package: 'com.mandir' and fully qualified activity name : 'com.mandir.v2.main.MainActivity'
+2022-10-21 08:03:05:229 [ADB] Incorrect package and activity. Retrying.
+2022-10-21 08:03:05:744 [ADB] Getting focused package and activity
+2022-10-21 08:03:05:745 [ADB] Running 'C:\Users\Shilpa\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-10-21 08:03:05:833 [ADB] Found package: 'com.mandir' and fully qualified activity name : 'com.mandir.v2.main.MainActivity'
+2022-10-21 08:03:05:833 [ADB] Incorrect package and activity. Retrying.
+2022-10-21 08:03:06:333 [ADB] Getting focused package and activity
+2022-10-21 08:03:06:334 [ADB] Running 'C:\Users\Shilpa\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-10-21 08:03:06:446 [ADB] Found package: 'com.mandir' and fully qualified activity name : 'com.mandir.v2.main.MainActivity'
+2022-10-21 08:03:06:447 [ADB] Incorrect package and activity. Retrying.
+2022-10-21 08:03:06:954 [ADB] Getting focused package and activity
+2022-10-21 08:03:06:954 [ADB] Running 'C:\Users\Shilpa\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-10-21 08:03:07:082 [ADB] Found package: 'com.mandir' and fully qualified activity name : 'com.mandir.v2.main.MainActivity'
+2022-10-21 08:03:07:082 [ADB] Incorrect package and activity. Retrying.
+2022-10-21 08:03:07:590 [ADB] Getting focused package and activity
+2022-10-21 08:03:07:590 [ADB] Running 'C:\Users\Shilpa\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-10-21 08:03:07:716 [ADB] Found package: 'com.mandir' and fully qualified activity name : 'com.mandir.v2.main.MainActivity'
+2022-10-21 08:03:07:717 [ADB] Incorrect package and activity. Retrying.
+2022-10-21 08:03:08:233 [ADB] Getting focused package and activity
+2022-10-21 08:03:08:234 [ADB] Running 'C:\Users\Shilpa\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-10-21 08:03:08:328 [ADB] Found package: 'com.mandir' and fully qualified activity name : 'com.mandir.v2.main.MainActivity'
+2022-10-21 08:03:08:329 [ADB] Incorrect package and activity. Retrying.
+2022-10-21 08:03:08:843 [ADB] Getting focused package and activity
+2022-10-21 08:03:08:844 [ADB] Running 'C:\Users\Shilpa\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-10-21 08:03:08:928 [ADB] Found package: 'com.mandir' and fully qualified activity name : 'com.mandir.v2.main.MainActivity'
+2022-10-21 08:03:08:928 [ADB] Incorrect package and activity. Retrying.
+2022-10-21 08:03:09:441 [ADB] Getting focused package and activity
+2022-10-21 08:03:09:442 [ADB] Running 'C:\Users\Shilpa\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-10-21 08:03:09:535 [ADB] Found package: 'com.mandir' and fully qualified activity name : 'com.mandir.v2.main.MainActivity'
+2022-10-21 08:03:09:535 [ADB] Incorrect package and activity. Retrying.
+2022-10-21 08:03:10:035 [ADB] Getting focused package and activity
+2022-10-21 08:03:10:035 [ADB] Running 'C:\Users\Shilpa\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-10-21 08:03:10:137 [ADB] Found package: 'com.mandir' and fully qualified activity name : 'com.mandir.v2.main.MainActivity'
+2022-10-21 08:03:10:137 [ADB] Incorrect package and activity. Retrying.
+2022-10-21 08:03:10:645 [ADB] Getting focused package and activity
+2022-10-21 08:03:10:646 [ADB] Running 'C:\Users\Shilpa\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-10-21 08:03:10:755 [ADB] Found package: 'com.mandir' and fully qualified activity name : 'com.mandir.v2.main.MainActivity'
+2022-10-21 08:03:10:755 [ADB] Incorrect package and activity. Retrying.
+2022-10-21 08:03:11:270 [ADB] Getting focused package and activity
+2022-10-21 08:03:11:271 [ADB] Running 'C:\Users\Shilpa\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-10-21 08:03:11:367 [ADB] Found package: 'com.mandir' and fully qualified activity name : 'com.mandir.v2.main.MainActivity'
+2022-10-21 08:03:11:368 [ADB] Incorrect package and activity. Retrying.
+2022-10-21 08:03:11:881 [ADB] Getting focused package and activity
+2022-10-21 08:03:11:881 [ADB] Running 'C:\Users\Shilpa\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-10-21 08:03:11:962 [ADB] Found package: 'com.mandir' and fully qualified activity name : 'com.mandir.v2.main.MainActivity'
+2022-10-21 08:03:11:962 [ADB] Incorrect package and activity. Retrying.
+2022-10-21 08:03:12:476 [ADB] Getting focused package and activity
+2022-10-21 08:03:12:477 [ADB] Running 'C:\Users\Shilpa\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-10-21 08:03:12:586 [ADB] Found package: 'com.mandir' and fully qualified activity name : 'com.mandir.v2.main.MainActivity'
+2022-10-21 08:03:12:586 [ADB] Incorrect package and activity. Retrying.
+2022-10-21 08:03:13:087 [ADB] Getting focused package and activity
+2022-10-21 08:03:13:088 [ADB] Running 'C:\Users\Shilpa\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-10-21 08:03:13:166 [ADB] Found package: 'com.mandir' and fully qualified activity name : 'com.mandir.v2.main.MainActivity'
+2022-10-21 08:03:13:166 [ADB] Incorrect package and activity. Retrying.
+2022-10-21 08:03:13:668 [ADB] Getting focused package and activity
+2022-10-21 08:03:13:669 [ADB] Running 'C:\Users\Shilpa\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-10-21 08:03:13:747 [ADB] Found package: 'com.mandir' and fully qualified activity name : 'com.mandir.v2.main.MainActivity'
+2022-10-21 08:03:13:748 [ADB] Incorrect package and activity. Retrying.
+2022-10-21 08:03:14:249 [ADB] Getting focused package and activity
+2022-10-21 08:03:14:250 [ADB] Running 'C:\Users\Shilpa\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-10-21 08:03:14:346 [ADB] Found package: 'com.mandir' and fully qualified activity name : 'com.mandir.v2.main.MainActivity'
+2022-10-21 08:03:14:347 [ADB] Incorrect package and activity. Retrying.
+2022-10-21 08:03:14:861 [ADB] Getting focused package and activity
+2022-10-21 08:03:14:862 [ADB] Running 'C:\Users\Shilpa\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-10-21 08:03:14:957 [ADB] Found package: 'com.mandir' and fully qualified activity name : 'com.mandir.v2.main.MainActivity'
+2022-10-21 08:03:14:958 [ADB] Incorrect package and activity. Retrying.
+2022-10-21 08:03:15:468 [ADB] Getting focused package and activity
+2022-10-21 08:03:15:469 [ADB] Running 'C:\Users\Shilpa\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-10-21 08:03:15:540 [ADB] Found package: 'com.mandir' and fully qualified activity name : 'com.mandir.v2.main.MainActivity'
+2022-10-21 08:03:15:540 [ADB] Incorrect package and activity. Retrying.
+2022-10-21 08:03:16:050 [ADB] Getting focused package and activity
+2022-10-21 08:03:16:051 [ADB] Running 'C:\Users\Shilpa\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-10-21 08:03:16:131 [ADB] Found package: 'com.mandir' and fully qualified activity name : 'com.mandir.v2.main.MainActivity'
+2022-10-21 08:03:16:132 [ADB] Incorrect package and activity. Retrying.
+2022-10-21 08:03:16:641 [ADB] Getting focused package and activity
+2022-10-21 08:03:16:641 [ADB] Running 'C:\Users\Shilpa\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-10-21 08:03:16:739 [ADB] Found package: 'com.mandir' and fully qualified activity name : 'com.mandir.v2.main.MainActivity'
+2022-10-21 08:03:16:739 [ADB] Incorrect package and activity. Retrying.
+2022-10-21 08:03:17:252 [ADB] Getting focused package and activity
+2022-10-21 08:03:17:253 [ADB] Running 'C:\Users\Shilpa\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-10-21 08:03:17:332 [ADB] Found package: 'com.mandir' and fully qualified activity name : 'com.mandir.v2.main.MainActivity'
+2022-10-21 08:03:17:333 [ADB] Incorrect package and activity. Retrying.
+2022-10-21 08:03:17:843 [ADB] Getting focused package and activity
+2022-10-21 08:03:17:844 [ADB] Running 'C:\Users\Shilpa\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-10-21 08:03:17:953 [ADB] Found package: 'com.mandir' and fully qualified activity name : 'com.mandir.v2.main.MainActivity'
+2022-10-21 08:03:17:954 [ADB] Incorrect package and activity. Retrying.
+2022-10-21 08:03:17:956 [UiAutomator2] Deleting UiAutomator2 session
+2022-10-21 08:03:17:957 [UiAutomator2] Deleting UiAutomator2 server session
+2022-10-21 08:03:17:957 [WD Proxy] Matched '/' to command name 'deleteSession'
+2022-10-21 08:03:17:958 [WD Proxy] Proxying [DELETE /] to [DELETE http://127.0.0.1:8206/wd/hub/session/b4049595-2c93-4f55-b96e-726610b7e909] with no body
+2022-10-21 08:03:17:991 [WD Proxy] Got response with status 200: {"sessionId":"b4049595-2c93-4f55-b96e-726610b7e909","value":null}
+2022-10-21 08:03:17:991 [ADB] Running 'C:\Users\Shilpa\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am force-stop com.mandir'
+2022-10-21 08:03:18:237 [Instrumentation] .
+2022-10-21 08:03:18:310 [Logcat] Stopping logcat capture
+2022-10-21 08:03:18:326 [ADB] Removing forwarded port socket connection: 8206 
+2022-10-21 08:03:18:326 [ADB] Running 'C:\Users\Shilpa\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 forward --remove tcp:8206'
+2022-10-21 08:03:18:354 [UiAutomator2] Restoring hidden api policy to the device default configuration
+2022-10-21 08:03:18:356 [ADB] Running 'C:\Users\Shilpa\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy''
+2022-10-21 08:03:18:404 [Instrumentation] Time: 33.389
+2022-10-21 08:03:18:405 [Instrumentation] 
+2022-10-21 08:03:18:405 [Instrumentation] OK (1 test)
+2022-10-21 08:03:18:455 [Instrumentation] The process has exited with code 0
+2022-10-21 08:03:18:717 [BaseDriver] Event 'newSessionStarted' logged at 1666339398716 (13:33:18 GMT+0530 (India Standard Time))
+2022-10-21 08:03:18:877 [W3C] Encountered internal error running command: Error: Cannot start the 'com.mandir' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: 'com.mandir.ui.activity.SplashActivity' or 'com.mandir.com.mandir.ui.activity.SplashActivity' never started. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting
+2022-10-21 08:03:18:877 [W3C]     at ADB.startApp (C:\Users\Shilpa\AppData\Roaming\npm\node_modules\appium\node_modules\appium-adb\lib\tools\apk-utils.js:179:11)
+2022-10-21 08:03:18:878 [W3C]     at AndroidUiautomator2Driver.ensureAppStarts (C:\Users\Shilpa\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-driver\lib\driver.js:564:7)
+2022-10-21 08:03:18:878 [W3C]     at AndroidUiautomator2Driver.startUiAutomator2Session (C:\Users\Shilpa\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-driver\lib\driver.js:431:7)
+2022-10-21 08:03:18:878 [W3C]     at AndroidUiautomator2Driver.createSession (C:\Users\Shilpa\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-driver\lib\driver.js:229:7)
+2022-10-21 08:03:18:878 [W3C]     at AppiumDriver.createSession (C:\Users\Shilpa\AppData\Roaming\npm\node_modules\appium\lib\appium.js:387:35)
+2022-10-21 08:03:18:905 [HTTP] <-- POST /wd/hub/session 500 46170 ms - 1419
+2022-10-21 08:03:18:905 [HTTP] 

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="18574" started-at="2022-11-26T14:26:10Z" finished-at="2022-11-26T14:26:29Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="18574" started-at="2022-11-26T14:26:10Z" finished-at="2022-11-26T14:26:29Z">
+      <class name="testScripts.PSA_01">
+        <test-method status="PASS" signature="configBS()[pri:0, instance:testScripts.PSA_01@307f6b8c]" name="configBS" is-config="true" duration-ms="111" started-at="2022-11-26T19:56:10Z" finished-at="2022-11-26T19:56:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBS -->
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:testScripts.PSA_01@307f6b8c]" name="launchApp" is-config="true" duration-ms="17633" started-at="2022-11-26T19:56:11Z" finished-at="2022-11-26T19:56:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="userProfileValidation()[pri:0, instance:testScripts.PSA_01@307f6b8c]" name="userProfileValidation" duration-ms="15" started-at="2022-11-26T19:56:29Z" finished-at="2022-11-26T19:56:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userProfileValidation -->
+        <test-method status="PASS" signature="closeApp(org.testng.ITestResult)[pri:0, instance:testScripts.PSA_01@307f6b8c]" name="closeApp" is-config="true" duration-ms="225" started-at="2022-11-26T19:56:29Z" finished-at="2022-11-26T19:56:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userProfileValidation status=SUCCESS method=PSA_01.userProfileValidation()[pri:0, instance:testScripts.PSA_01@307f6b8c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method status="PASS" signature="configAC()[pri:0, instance:testScripts.PSA_01@307f6b8c]" name="configAC" is-config="true" duration-ms="0" started-at="2022-11-26T19:56:29Z" finished-at="2022-11-26T19:56:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+        <test-method status="PASS" signature="configAS()[pri:0, instance:testScripts.PSA_01@307f6b8c]" name="configAS" is-config="true" duration-ms="1" started-at="2022-11-26T19:56:30Z" finished-at="2022-11-26T19:56:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAS -->
+      </class> <!-- testScripts.PSA_01 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
