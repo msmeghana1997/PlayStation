@@ -67,8 +67,8 @@ public class CapabailitySettingLib
 		capabilities.setCapability(CapabilityType.PLATFORM_NAME, AppInfo.ANDROID_PLATFORM_NAME.getLabel());
 		capabilities.setCapability(MobileCapabilityType.NO_RESET,true);
 	//	capabilities.setCapability(MobileCapabilityType.APP, FilePaths.PLAYSTATION_APK);
-//		capabilities.setCapability("appPackage", "com.mandir");
-//		capabilities.setCapability("appActivity", ".v2.main.MainActivity");
+		capabilities.setCapability("appPackage", "com.scee.psxandroid");
+		capabilities.setCapability("appActivity", ".activity.TopActivity");
 //		capabilities.setCapability(MobileCapabilityType.FULL_RESET,true);
 		capabilities.setCapability("automationName", AppInfo.ANDROID_AUTOMATION_NAME.getLabel());
 		capabilities.setCapability(AndroidMobileCapabilityType.AUTO_GRANT_PERMISSIONS, true);

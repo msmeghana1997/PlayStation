@@ -3,16 +3,16 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="testScripts.PSA_01">
+      <class name="testScripts.PSA_01Test">
         <methods>
           <include name="closeApp"/>
           <include name="launchApp"/>
           <include name="configAS"/>
           <include name="configAC"/>
           <include name="configBS"/>
-          <include name="userProfileValidation"/>
+          <include name="userProfileValidationTest"/>
         </methods>
-      </class> <!-- testScripts.PSA_01 -->
+      </class> <!-- testScripts.PSA_01Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

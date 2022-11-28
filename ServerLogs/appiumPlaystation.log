@@ -1,0 +1,230 @@
+2022-11-28 04:21:49:439 [Appium] Welcome to Appium v1.22.3
+2022-11-28 04:21:49:441 [Appium] Non-default server args:
+2022-11-28 04:21:49:442 [Appium]   address: 127.0.0.1
+2022-11-28 04:21:49:442 [Appium]   port: 32492
+2022-11-28 04:21:49:442 [Appium]   logFile: C:\Users\Lenovo\workspace\PlayStationApp\.\ServerLogs\appiumPlaystation.log
+2022-11-28 04:21:49:529 [Appium] Appium REST http interface listener started on 127.0.0.1:32492
+2022-11-28 04:21:49:978 [HTTP] --> GET /wd/hub/status
+2022-11-28 04:21:49:982 [HTTP] {}
+2022-11-28 04:21:49:984 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2022-11-28 04:21:49:985 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.22.3"}}
+2022-11-28 04:21:50:014 [HTTP] <-- GET /wd/hub/status 200 23 ms - 68
+2022-11-28 04:21:50:014 [HTTP] 
+2022-11-28 04:21:51:409 [HTTP] --> POST /wd/hub/session
+2022-11-28 04:21:51:409 [HTTP] {"desiredCapabilities":{"appActivity":".activity.TopActivity","appPackage":"com.scee.psxandroid","noReset":true,"automationName":"UiAutomator2","autoGrantPermissions":true,"platformName":"android","udid":"33c814800704","platform":"ANDROID"},"capabilities":{"firstMatch":[{"appium:appActivity":".activity.TopActivity","appium:appPackage":"com.scee.psxandroid","appium:autoGrantPermissions":true,"appium:automationName":"UiAutomator2","appium:noReset":true,"platform":"ANDROID","platformName":"android","appium:udid":"33c814800704"}]}}
+2022-11-28 04:21:51:410 [W3C] Calling AppiumDriver.createSession() with args: [{"appActivity":".activity.TopActivity","appPackage":"com.scee.psxandroid","noReset":true,"automationName":"UiAutomator2","autoGrantPermissions":true,"platformName":"android","udid":"33c814800704","platform":"ANDROID"},null,{"firstMatch":[{"appium:appActivity":".activity.TopActivity","appium:appPackage":"com.scee.psxandroid","appium:autoGrantPermissions":true,"appium:automationName":"UiAutomator2","appium:noReset":true,"platform":"ANDROID","platformName":"android","appium:udid":"33c814800704"}]}]
+2022-11-28 04:21:51:443 [BaseDriver] Event 'newSessionRequested' logged at 1669609311411 (09:51:51 GMT+0530 (India Standard Time))
+2022-11-28 04:21:51:447 [BaseDriver] The following capabilities are not standard capabilities and should have an extension prefix:
+2022-11-28 04:21:51:447 [BaseDriver]   platform
+2022-11-28 04:21:52:135 [Appium] Appium v1.22.3 creating new AndroidUiautomator2Driver (v1.70.1) session
+2022-11-28 04:21:52:138 [BaseDriver] W3C capabilities and MJSONWP desired capabilities were provided
+2022-11-28 04:21:52:140 [BaseDriver] Creating session with W3C capabilities: {
+2022-11-28 04:21:52:140 [BaseDriver]   "alwaysMatch": {
+2022-11-28 04:21:52:141 [BaseDriver]     "appium:platform": "ANDROID",
+2022-11-28 04:21:52:141 [BaseDriver]     "platformName": "android",
+2022-11-28 04:21:52:141 [BaseDriver]     "appium:appActivity": ".activity.TopActivity",
+2022-11-28 04:21:52:141 [BaseDriver]     "appium:appPackage": "com.scee.psxandroid",
+2022-11-28 04:21:52:141 [BaseDriver]     "appium:autoGrantPermissions": true,
+2022-11-28 04:21:52:141 [BaseDriver]     "appium:automationName": "UiAutomator2",
+2022-11-28 04:21:52:142 [BaseDriver]     "appium:noReset": true,
+2022-11-28 04:21:52:142 [BaseDriver]     "appium:udid": "33c814800704"
+2022-11-28 04:21:52:142 [BaseDriver]   },
+2022-11-28 04:21:52:142 [BaseDriver]   "firstMatch": [
+2022-11-28 04:21:52:142 [BaseDriver]     {}
+2022-11-28 04:21:52:143 [BaseDriver]   ]
+2022-11-28 04:21:52:143 [BaseDriver] }
+2022-11-28 04:21:52:153 [BaseDriver] The following capabilities were provided, but are not recognized by Appium:
+2022-11-28 04:21:52:154 [BaseDriver]   platform
+2022-11-28 04:21:52:162 [BaseDriver] Session created with session id: e2307769-c76d-4699-ab11-7afb74565c36
+2022-11-28 04:21:52:163 [UiAutomator2] Starting 'com.scee.psxandroid' directly on the device
+2022-11-28 04:21:52:319 [ADB] Found 2 'build-tools' folders under 'C:\Users\Lenovo\AppData\Local\Android\Sdk' (newest first):
+2022-11-28 04:21:52:319 [ADB]     C:/Users/Lenovo/AppData/Local/Android/Sdk/build-tools/33.0.0
+2022-11-28 04:21:52:319 [ADB]     C:/Users/Lenovo/AppData/Local/Android/Sdk/build-tools/30.0.3
+2022-11-28 04:21:52:320 [ADB] Using 'adb.exe' from 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+2022-11-28 04:21:52:322 [ADB] Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 start-server'
+2022-11-28 04:21:52:382 [AndroidDriver] Retrieving device list
+2022-11-28 04:21:52:383 [ADB] Trying to find a connected android device
+2022-11-28 04:21:52:385 [ADB] Getting connected devices
+2022-11-28 04:21:52:425 [ADB] Connected devices: [{"udid":"33c814800704","state":"device"}]
+2022-11-28 04:21:52:426 [AndroidDriver] Using device: 33c814800704
+2022-11-28 04:21:52:428 [ADB] Using 'adb.exe' from 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+2022-11-28 04:21:52:429 [ADB] Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 start-server'
+2022-11-28 04:21:52:468 [ADB] Setting device id to 33c814800704
+2022-11-28 04:21:52:468 [ADB] Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 33c814800704 shell getprop ro.build.version.sdk'
+2022-11-28 04:21:52:650 [ADB] Current device property 'ro.build.version.sdk': 28
+2022-11-28 04:21:52:651 [ADB] Getting device platform version
+2022-11-28 04:21:52:651 [ADB] Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 33c814800704 shell getprop ro.build.version.release'
+2022-11-28 04:21:52:742 [ADB] Current device property 'ro.build.version.release': 9
+2022-11-28 04:21:52:742 [ADB] Device API level: 28
+2022-11-28 04:21:52:742 [UiAutomator2] Relaxing hidden api policy
+2022-11-28 04:21:52:744 [ADB] Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 33c814800704 shell 'settings put global hidden_api_policy_pre_p_apps 1;settings put global hidden_api_policy_p_apps 1;settings put global hidden_api_policy 1''
+2022-11-28 04:21:52:948 [AndroidDriver] No app sent in, not parsing package/activity
+2022-11-28 04:21:52:949 [ADB] Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 33c814800704 wait-for-device'
+2022-11-28 04:21:52:987 [ADB] Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 33c814800704 shell echo ping'
+2022-11-28 04:21:53:058 [AndroidDriver] Pushing settings apk to device...
+2022-11-28 04:21:53:059 [ADB] Getting install status for io.appium.settings
+2022-11-28 04:21:53:060 [ADB] Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 33c814800704 shell dumpsys package io.appium.settings'
+2022-11-28 04:21:53:181 [ADB] 'io.appium.settings' is installed
+2022-11-28 04:21:53:181 [ADB] Getting package info for 'io.appium.settings'
+2022-11-28 04:21:53:182 [ADB] Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 33c814800704 shell dumpsys package io.appium.settings'
+2022-11-28 04:21:53:330 [ADB] The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('3.4.0' >= '3.4.0')
+2022-11-28 04:21:53:330 [ADB] There is no need to install/upgrade 'C:\Users\Lenovo\AppData\Roaming\npm\node_modules\appium\node_modules\io.appium.settings\apks\settings_apk-debug.apk'
+2022-11-28 04:21:53:331 [ADB] Getting IDs of all 'io.appium.settings' processes
+2022-11-28 04:21:53:332 [ADB] Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 33c814800704 shell 'pgrep --help; echo $?''
+2022-11-28 04:21:53:434 [ADB] Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 33c814800704 shell pgrep -f \(\[\[:blank:\]\]\|\^\)io\.appium\.settings\(\[\[:blank:\]\]\|\$\)'
+2022-11-28 04:21:53:586 [AndroidDriver] io.appium.settings is already running. There is no need to reset its permissions.
+2022-11-28 04:21:53:587 [ADB] Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 33c814800704 shell appops set io.appium.settings android:mock_location allow'
+2022-11-28 04:21:53:716 [Logcat] Starting logs capture with command: C:\\Users\\Lenovo\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s 33c814800704 logcat -v threadtime
+2022-11-28 04:21:53:822 [UiAutomator2] Forwarding UiAutomator2 Server port 6790 to local port 8200
+2022-11-28 04:21:53:824 [ADB] Forwarding system: 8200 to device: 6790
+2022-11-28 04:21:53:824 [ADB] Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 33c814800704 forward tcp:8200 tcp:6790'
+2022-11-28 04:21:53:888 [ADB] Getting install status for io.appium.uiautomator2.server
+2022-11-28 04:21:53:889 [ADB] Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 33c814800704 shell dumpsys package io.appium.uiautomator2.server'
+2022-11-28 04:21:53:989 [ADB] 'io.appium.uiautomator2.server' is installed
+2022-11-28 04:21:53:991 [ADB] Getting package info for 'io.appium.uiautomator2.server'
+2022-11-28 04:21:53:991 [ADB] Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 33c814800704 shell dumpsys package io.appium.uiautomator2.server'
+2022-11-28 04:21:54:393 [ADB] The version name of the installed 'io.appium.uiautomator2.server' is greater or equal to the application version name ('4.27.0' >= '4.27.0')
+2022-11-28 04:21:54:393 [UiAutomator2] io.appium.uiautomator2.server installation state: sameVersionInstalled
+2022-11-28 04:21:54:394 [ADB] Checking app cert for C:\Users\Lenovo\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk
+2022-11-28 04:21:54:449 [ADB] Using 'apksigner.jar' from 'C:\Users\Lenovo\AppData\Local\Android\Sdk\build-tools\33.0.0\lib\apksigner.jar'
+2022-11-28 04:21:54:451 [ADB] Starting apksigner: 'C:\\Program Files\\Java\\jdk1.8.0_201\\bin\\java.exe' -Xmx1024M -Xss1m -jar C:\\Users\\Lenovo\\AppData\\Local\\Android\\Sdk\\build-tools\\33.0.0\\lib\\apksigner.jar verify --print-certs C:\\Users\\Lenovo\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v4.27.0.apk
+2022-11-28 04:21:56:156 [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+2022-11-28 04:21:56:157 [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+2022-11-28 04:21:56:157 [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+2022-11-28 04:21:56:157 [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+2022-11-28 04:21:56:157 [ADB] 
+2022-11-28 04:21:56:158 [ADB] sha256 hash did match for 'appium-uiautomator2-server-v4.27.0.apk'
+2022-11-28 04:21:56:158 [ADB] 'C:\Users\Lenovo\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk' is signed with the default certificate
+2022-11-28 04:21:56:158 [ADB] Getting install status for io.appium.uiautomator2.server.test
+2022-11-28 04:21:56:158 [ADB] Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 33c814800704 shell dumpsys package io.appium.uiautomator2.server.test'
+2022-11-28 04:21:56:262 [ADB] 'io.appium.uiautomator2.server.test' is installed
+2022-11-28 04:21:56:262 [ADB] Checking app cert for C:\Users\Lenovo\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk
+2022-11-28 04:21:56:269 [ADB] Starting apksigner: 'C:\\Program Files\\Java\\jdk1.8.0_201\\bin\\java.exe' -Xmx1024M -Xss1m -jar C:\\Users\\Lenovo\\AppData\\Local\\Android\\Sdk\\build-tools\\33.0.0\\lib\\apksigner.jar verify --print-certs C:\\Users\\Lenovo\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk
+2022-11-28 04:21:56:985 [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+2022-11-28 04:21:56:986 [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+2022-11-28 04:21:56:986 [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+2022-11-28 04:21:56:986 [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+2022-11-28 04:21:56:986 [ADB] 
+2022-11-28 04:21:56:987 [ADB] sha256 hash did match for 'appium-uiautomator2-server-debug-androidTest.apk'
+2022-11-28 04:21:56:987 [ADB] 'C:\Users\Lenovo\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
+2022-11-28 04:21:56:987 [UiAutomator2] Server packages are not going to be (re)installed
+2022-11-28 04:21:56:991 [UiAutomator2] Waiting up to 30000ms for services to be available
+2022-11-28 04:21:56:992 [ADB] Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 33c814800704 shell pm list instrumentation'
+2022-11-28 04:21:57:172 [UiAutomator2] Instrumentation target 'io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner' is available
+2022-11-28 04:21:57:175 [ADB] Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+2022-11-28 04:21:57:176 [ADB] Got the following command chunks to execute: [["dumpsys","deviceidle","whitelist","+io.appium.settings",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server.test",";"]]
+2022-11-28 04:21:57:176 [ADB] Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 33c814800704 shell dumpsys deviceidle whitelist +io.appium.settings ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server.test ;'
+2022-11-28 04:21:57:339 [UiAutomator2] No app capability. Assuming it is already on the device
+2022-11-28 04:21:57:340 [UiAutomator2] Performing shallow cleanup of automation leftovers
+2022-11-28 04:21:57:422 [UiAutomator2] The following obsolete sessions are still running: ["8695d418-3a9b-4f16-8fc9-d7ebcce5ba0d"]
+2022-11-28 04:21:57:426 [UiAutomator2] Cleaning up 1 obsolete session
+2022-11-28 04:21:58:469 [ADB] Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 33c814800704 shell am force-stop io.appium.uiautomator2.server.test'
+2022-11-28 04:21:58:601 [UiAutomator2] Starting UIAutomator2 server 4.27.0
+2022-11-28 04:21:58:601 [UiAutomator2] Using UIAutomator2 server from 'C:\Users\Lenovo\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk' and test from 'C:\Users\Lenovo\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+2022-11-28 04:21:58:602 [UiAutomator2] Waiting up to 30000ms for UiAutomator2 to be online...
+2022-11-28 04:21:58:602 [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","33c814800704","shell","am","instrument","-w","-e","disableAnalytics",true,"io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner"]
+2022-11-28 04:21:58:632 [WD Proxy] Matched '/status' to command name 'getStatus'
+2022-11-28 04:21:58:634 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8200/wd/hub/status] with no body
+2022-11-28 04:21:58:653 [WD Proxy] socket hang up
+2022-11-28 04:21:59:661 [WD Proxy] Matched '/status' to command name 'getStatus'
+2022-11-28 04:21:59:662 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8200/wd/hub/status] with no body
+2022-11-28 04:21:59:666 [WD Proxy] socket hang up
+2022-11-28 04:22:00:668 [WD Proxy] Matched '/status' to command name 'getStatus'
+2022-11-28 04:22:00:668 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8200/wd/hub/status] with no body
+2022-11-28 04:22:00:673 [WD Proxy] socket hang up
+2022-11-28 04:22:00:975 [Instrumentation] io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:
+2022-11-28 04:22:01:688 [WD Proxy] Matched '/status' to command name 'getStatus'
+2022-11-28 04:22:01:688 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8200/wd/hub/status] with no body
+2022-11-28 04:22:01:693 [WD Proxy] socket hang up
+2022-11-28 04:22:02:703 [WD Proxy] Matched '/status' to command name 'getStatus'
+2022-11-28 04:22:02:703 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8200/wd/hub/status] with no body
+2022-11-28 04:22:02:858 [WD Proxy] Got response with status 200: {"sessionId":"None","value":{"message":"UiAutomator2 Server is ready to accept commands","ready":true}}
+2022-11-28 04:22:02:859 [UiAutomator2] The initialization of the instrumentation process took 4257ms
+2022-11-28 04:22:02:859 [WD Proxy] Matched '/session' to command name 'createSession'
+2022-11-28 04:22:02:859 [WD Proxy] Proxying [POST /session] to [POST http://127.0.0.1:8200/wd/hub/session] with body: {"capabilities":{"firstMatch":[{"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","platform":"ANDROID","appActivity":".activity.TopActivity","appPackage":"com.scee.psxandroid","autoGrantPermissions":true,"automationName":"UiAutomator2","noReset":true,"udid":"33c814800704"},"platformName":"android","appActivity":".activity.TopActivity","appPackage":"com.scee.psxandroid","autoGrantPermissions":true,"automationName":"UiAutomator2","noReset":true,"udid":"33c814800704","deviceName":"33c814800704","deviceUDID":"33c814800704"}],"alwaysMatch":{}}}
+2022-11-28 04:22:02:928 [WD Proxy] Got response with status 200: {"sessionId":"7c122ae2-04bc-49f9-adf0-f0230d13c263","value":{"capabilities":{"firstMatch":[{"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","platform":"ANDROID","appActivity":".activity.TopActivity","appPackage":"com.scee.psxandroid","autoGrantPermissions":true,"automationName":"UiAutomator2","noReset":true,"udid":"33c814800704"},"platformName":"android","appActivity":".activity.TopActivity","appPackage":"com.scee.psxandroid","autoGrantPermissions":true,"automationName":"UiAutomator2","noReset":true,"udid":"33c814800704","deviceName":"33c814800704","deviceUDID":"33c814800704"}],"alwaysMatch":{}},"sessionId":"7c122ae2-04bc-49f9-adf0-f0230d13c263"}}
+2022-11-28 04:22:02:928 [WD Proxy] Determined the downstream protocol as 'W3C'
+2022-11-28 04:22:02:953 [WD Proxy] Proxying [GET /appium/device/info] to [GET http://127.0.0.1:8200/wd/hub/session/7c122ae2-04bc-49f9-adf0-f0230d13c263/appium/device/info] with no body
+2022-11-28 04:22:03:032 [WD Proxy] Got response with status 200: {"sessionId":"7c122ae2-04bc-49f9-adf0-f0230d13c263","value":{"androidId":"f2e4f56c5db09af0","apiVersion":"28","bluetooth":{"state":"ON"},"brand":"xiaomi","carrierName":"","displayDensity":480,"locale":"en_IN","manufacturer":"Xiaomi","model":"Mi A1","networks":[{"capabilities":{"SSID":null,"linkDownBandwidthKbps":1048576,"linkUpstreamBandwidthKbps":1048576,"networkCapabilities":"NET_CAPABILITY_INTERNET,NET_CAPABILITY_NOT_RESTRICTED,NET_CAPABILITY_TRUSTED,NET_CAPABILITY_NOT_VPN,NET_CAPABILITY_VALIDATED,NET_CAPABILITY_NOT_ROAMING,NET_CAPABILITY_FOREGROUND,NET_CAPABILITY_NOT_CONGESTED,NET_CAPABILITY_NOT_SUSPENDED","signalStrength":-20,"transportTypes":"TRANSPORT_WIFI"},"detailedState":"CONNECTED","extraInfo":null,"isAvailable":true,"isConnected":true,"isFailover":false,"isRoaming":false,"state":"CONNECTED","subtype":0,"subtypeName":"","type":1,"typeName":"WIFI"}],"platformVersion":"9","realDisplaySize":"1080x1920","timeZone":"Asia/Calcutta"}}
+2022-11-28 04:22:03:034 [ADB] Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 33c814800704 shell dumpsys window'
+2022-11-28 04:22:03:159 [AndroidDriver] Screen already unlocked, doing nothing
+2022-11-28 04:22:03:159 [UiAutomator2] Starting 'com.scee.psxandroid/.activity.TopActivity and waiting for 'com.scee.psxandroid/.activity.TopActivity'
+2022-11-28 04:22:03:161 [ADB] Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 33c814800704 shell am start -W -n com.scee.psxandroid/.activity.TopActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2022-11-28 04:22:04:414 [WD Proxy] Proxying [GET /appium/device/pixel_ratio] to [GET http://127.0.0.1:8200/wd/hub/session/7c122ae2-04bc-49f9-adf0-f0230d13c263/appium/device/pixel_ratio] with no body
+2022-11-28 04:22:04:434 [WD Proxy] Got response with status 200: {"sessionId":"7c122ae2-04bc-49f9-adf0-f0230d13c263","value":3}
+2022-11-28 04:22:04:435 [WD Proxy] Matched '/appium/device/system_bars' to command name 'getSystemBars'
+2022-11-28 04:22:04:435 [WD Proxy] Proxying [GET /appium/device/system_bars] to [GET http://127.0.0.1:8200/wd/hub/session/7c122ae2-04bc-49f9-adf0-f0230d13c263/appium/device/system_bars] with no body
+2022-11-28 04:22:04:462 [WD Proxy] Got response with status 200: {"sessionId":"7c122ae2-04bc-49f9-adf0-f0230d13c263","value":{"statusBar":72}}
+2022-11-28 04:22:04:462 [WD Proxy] Matched '/window/current/size' to command name 'getWindowSize'
+2022-11-28 04:22:04:463 [WD Proxy] Proxying [GET /window/current/size] to [GET http://127.0.0.1:8200/wd/hub/session/7c122ae2-04bc-49f9-adf0-f0230d13c263/window/current/size] with no body
+2022-11-28 04:22:04:493 [WD Proxy] Got response with status 200: {"sessionId":"7c122ae2-04bc-49f9-adf0-f0230d13c263","value":{"height":1920,"width":1080}}
+2022-11-28 04:22:04:497 [Appium] New AndroidUiautomator2Driver session created successfully, session e2307769-c76d-4699-ab11-7afb74565c36 added to master session list
+2022-11-28 04:22:04:499 [BaseDriver] Event 'newSessionStarted' logged at 1669609324498 (09:52:04 GMT+0530 (India Standard Time))
+2022-11-28 04:22:04:500 [W3C (e2307769)] Cached the protocol value 'W3C' for the new session e2307769-c76d-4699-ab11-7afb74565c36
+2022-11-28 04:22:04:501 [W3C (e2307769)] Responding to client with driver.createSession() result: {"capabilities":{"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","platform":"ANDROID","appActivity":".activity.TopActivity","appPackage":"com.scee.psxandroid","autoGrantPermissions":true,"automationName":"UiAutomator2","noReset":true,"udid":"33c814800704"},"platformName":"android","appActivity":".activity.TopActivity","appPackage":"com.scee.psxandroid","autoGrantPermissions":true,"automationName":"UiAutomator2","noReset":true,"udid":"33c814800704","deviceName":"33c814800704","deviceUDID":"33c814800704","deviceApiLevel":28,"platformVersion":"9","deviceScreenSize":"1080x1920","deviceScreenDensity":480,"deviceModel":"Mi A1","deviceManufacturer":"Xiaomi","pixelRatio":3,"statBarHeight":72,"viewportRect":{"left":0,"top":72,"width":1080,"height":1848}}}
+2022-11-28 04:22:04:503 [HTTP] <-- POST /wd/hub/session 200 13093 ms - 1001
+2022-11-28 04:22:04:503 [HTTP] 
+2022-11-28 04:22:04:670 [HTTP] --> GET /wd/hub/session/e2307769-c76d-4699-ab11-7afb74565c36
+2022-11-28 04:22:04:671 [HTTP] {}
+2022-11-28 04:22:04:675 [W3C (e2307769)] Calling AppiumDriver.getSession() with args: ["e2307769-c76d-4699-ab11-7afb74565c36"]
+2022-11-28 04:22:04:675 [UiAutomator2] Getting session details from server to mix in
+2022-11-28 04:22:04:676 [WD Proxy] Matched '/' to command name 'getSession'
+2022-11-28 04:22:04:676 [WD Proxy] Proxying [GET /] to [GET http://127.0.0.1:8200/wd/hub/session/7c122ae2-04bc-49f9-adf0-f0230d13c263] with no body
+2022-11-28 04:22:04:696 [WD Proxy] Got response with status 200: {"sessionId":"7c122ae2-04bc-49f9-adf0-f0230d13c263","value":{"lastScrollData":null}}
+2022-11-28 04:22:04:697 [W3C (e2307769)] Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","platform":"ANDROID","appActivity":".activity.TopActivity","appPackage":"com.scee.psxandroid","autoGrantPermissions":true,"automationName":"UiAutomator2","noReset":true,"udid":"33c814800704"},"platformName":"android","appActivity":".activity.TopActivity","appPackage":"com.scee.psxandroid","autoGrantPermissions":true,"automationName":"UiAutomator2","noReset":true,"udid":"33c814800704","deviceName":"33c814800704","deviceUDID":"33c814800704","deviceApiLevel":28,"platformVersion":"9","deviceScreenSize":"1080x1920","deviceScreenDensity":480,"deviceModel":"Mi A1","deviceManufacturer":"Xiaomi","pixelRatio":3,"statBarHeight":72,"viewportRect":{"left":0,"top":72,"width":1080,"height":1848},"lastScrollData":null}
+2022-11-28 04:22:04:700 [HTTP] <-- GET /wd/hub/session/e2307769-c76d-4699-ab11-7afb74565c36 200 30 ms - 955
+2022-11-28 04:22:04:700 [HTTP] 
+2022-11-28 04:22:04:714 [HTTP] --> GET /wd/hub/session/e2307769-c76d-4699-ab11-7afb74565c36
+2022-11-28 04:22:04:714 [HTTP] {}
+2022-11-28 04:22:04:715 [W3C (e2307769)] Calling AppiumDriver.getSession() with args: ["e2307769-c76d-4699-ab11-7afb74565c36"]
+2022-11-28 04:22:04:716 [UiAutomator2] Getting session details from server to mix in
+2022-11-28 04:22:04:716 [WD Proxy] Matched '/' to command name 'getSession'
+2022-11-28 04:22:04:716 [WD Proxy] Proxying [GET /] to [GET http://127.0.0.1:8200/wd/hub/session/7c122ae2-04bc-49f9-adf0-f0230d13c263] with no body
+2022-11-28 04:22:04:740 [WD Proxy] Got response with status 200: {"sessionId":"7c122ae2-04bc-49f9-adf0-f0230d13c263","value":{"lastScrollData":null}}
+2022-11-28 04:22:04:741 [W3C (e2307769)] Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","platform":"ANDROID","appActivity":".activity.TopActivity","appPackage":"com.scee.psxandroid","autoGrantPermissions":true,"automationName":"UiAutomator2","noReset":true,"udid":"33c814800704"},"platformName":"android","appActivity":".activity.TopActivity","appPackage":"com.scee.psxandroid","autoGrantPermissions":true,"automationName":"UiAutomator2","noReset":true,"udid":"33c814800704","deviceName":"33c814800704","deviceUDID":"33c814800704","deviceApiLevel":28,"platformVersion":"9","deviceScreenSize":"1080x1920","deviceScreenDensity":480,"deviceModel":"Mi A1","deviceManufacturer":"Xiaomi","pixelRatio":3,"statBarHeight":72,"viewportRect":{"left":0,"top":72,"width":1080,"height":1848},"lastScrollData":null}
+2022-11-28 04:22:04:742 [HTTP] <-- GET /wd/hub/session/e2307769-c76d-4699-ab11-7afb74565c36 200 28 ms - 955
+2022-11-28 04:22:04:742 [HTTP] 
+2022-11-28 04:22:04:760 [HTTP] --> POST /wd/hub/session/e2307769-c76d-4699-ab11-7afb74565c36/timeouts
+2022-11-28 04:22:04:760 [HTTP] {"implicit":10000}
+2022-11-28 04:22:04:763 [W3C (e2307769)] Calling AppiumDriver.timeouts() with args: [null,null,null,null,10000,"e2307769-c76d-4699-ab11-7afb74565c36"]
+2022-11-28 04:22:04:763 [BaseDriver] W3C timeout argument: {"implicit":10000}}
+2022-11-28 04:22:04:764 [BaseDriver] Set implicit wait to 10000ms
+2022-11-28 04:22:04:765 [W3C (e2307769)] Responding to client with driver.timeouts() result: null
+2022-11-28 04:22:04:768 [HTTP] <-- POST /wd/hub/session/e2307769-c76d-4699-ab11-7afb74565c36/timeouts 200 6 ms - 14
+2022-11-28 04:22:04:768 [HTTP] 
+2022-11-28 04:22:06:824 [HTTP] --> POST /wd/hub/session/e2307769-c76d-4699-ab11-7afb74565c36/element
+2022-11-28 04:22:06:824 [HTTP] {"using":"class name","value":"android.view.View"}
+2022-11-28 04:22:06:834 [W3C (e2307769)] Calling AppiumDriver.findElement() with args: ["class name","android.view.View","e2307769-c76d-4699-ab11-7afb74565c36"]
+2022-11-28 04:22:06:835 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2022-11-28 04:22:06:836 [BaseDriver] Waiting up to 10000 ms for condition
+2022-11-28 04:22:06:836 [WD Proxy] Matched '/element' to command name 'findElement'
+2022-11-28 04:22:06:837 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8200/wd/hub/session/7c122ae2-04bc-49f9-adf0-f0230d13c263/element] with body: {"strategy":"class name","selector":"android.view.View","context":"","multiple":false}
+2022-11-28 04:22:08:408 [WD Proxy] Got response with status 200: {"sessionId":"7c122ae2-04bc-49f9-adf0-f0230d13c263","value":{"ELEMENT":"00000000-0000-0029-ffff-ffff00000014","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0029-ffff-ffff00000014"}}
+2022-11-28 04:22:08:409 [W3C (e2307769)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0029-ffff-ffff00000014","ELEMENT":"00000000-0000-0029-ffff-ffff00000014"}
+2022-11-28 04:22:08:410 [HTTP] <-- POST /wd/hub/session/e2307769-c76d-4699-ab11-7afb74565c36/element 200 1585 ms - 137
+2022-11-28 04:22:08:410 [HTTP] 
+2022-11-28 04:22:08:576 [HTTP] --> GET /wd/hub/session/e2307769-c76d-4699-ab11-7afb74565c36/element/00000000-0000-0029-ffff-ffff00000014/displayed
+2022-11-28 04:22:08:576 [HTTP] {}
+2022-11-28 04:22:08:580 [W3C (e2307769)] Calling AppiumDriver.elementDisplayed() with args: ["00000000-0000-0029-ffff-ffff00000014","e2307769-c76d-4699-ab11-7afb74565c36"]
+2022-11-28 04:22:08:581 [WD Proxy] Matched '/element/00000000-0000-0029-ffff-ffff00000014/attribute/displayed' to command name 'getAttribute'
+2022-11-28 04:22:08:581 [WD Proxy] Proxying [GET /element/00000000-0000-0029-ffff-ffff00000014/attribute/displayed] to [GET http://127.0.0.1:8200/wd/hub/session/7c122ae2-04bc-49f9-adf0-f0230d13c263/element/00000000-0000-0029-ffff-ffff00000014/attribute/displayed] with no body
+2022-11-28 04:22:08:616 [WD Proxy] Got response with status 200: {"sessionId":"7c122ae2-04bc-49f9-adf0-f0230d13c263","value":"true"}
+2022-11-28 04:22:08:617 [W3C (e2307769)] Responding to client with driver.elementDisplayed() result: true
+2022-11-28 04:22:08:618 [HTTP] <-- GET /wd/hub/session/e2307769-c76d-4699-ab11-7afb74565c36/element/00000000-0000-0029-ffff-ffff00000014/displayed 200 42 ms - 14
+2022-11-28 04:22:08:618 [HTTP] 
+2022-11-28 04:22:08:625 [HTTP] --> POST /wd/hub/session/e2307769-c76d-4699-ab11-7afb74565c36/element/00000000-0000-0029-ffff-ffff00000014/click
+2022-11-28 04:22:08:625 [HTTP] {"id":"00000000-0000-0029-ffff-ffff00000014"}
+2022-11-28 04:22:08:626 [W3C (e2307769)] Calling AppiumDriver.click() with args: ["00000000-0000-0029-ffff-ffff00000014","e2307769-c76d-4699-ab11-7afb74565c36"]
+2022-11-28 04:22:08:627 [WD Proxy] Matched '/element/00000000-0000-0029-ffff-ffff00000014/click' to command name 'click'
+2022-11-28 04:22:08:627 [WD Proxy] Proxying [POST /element/00000000-0000-0029-ffff-ffff00000014/click] to [POST http://127.0.0.1:8200/wd/hub/session/7c122ae2-04bc-49f9-adf0-f0230d13c263/element/00000000-0000-0029-ffff-ffff00000014/click] with body: {"element":"00000000-0000-0029-ffff-ffff00000014"}
+2022-11-28 04:22:08:686 [WD Proxy] Got response with status 200: {"sessionId":"7c122ae2-04bc-49f9-adf0-f0230d13c263","value":null}
+2022-11-28 04:22:08:687 [W3C (e2307769)] Responding to client with driver.click() result: null
+2022-11-28 04:22:08:689 [HTTP] <-- POST /wd/hub/session/e2307769-c76d-4699-ab11-7afb74565c36/element/00000000-0000-0029-ffff-ffff00000014/click 200 63 ms - 14
+2022-11-28 04:22:08:689 [HTTP] 
+2022-11-28 04:22:13:744 [HTTP] --> POST /wd/hub/session/e2307769-c76d-4699-ab11-7afb74565c36/appium/app/close
+2022-11-28 04:22:13:745 [HTTP] {}
+2022-11-28 04:22:13:776 [W3C (e2307769)] Calling AppiumDriver.closeApp() with args: ["e2307769-c76d-4699-ab11-7afb74565c36"]
+2022-11-28 04:22:13:778 [ADB] Running 'C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 33c814800704 shell am force-stop com.scee.psxandroid'
+2022-11-28 04:22:14:098 [W3C (e2307769)] Responding to client with driver.closeApp() result: null
+2022-11-28 04:22:14:100 [HTTP] <-- POST /wd/hub/session/e2307769-c76d-4699-ab11-7afb74565c36/appium/app/close 200 373 ms - 14
+2022-11-28 04:22:14:100 [HTTP] 
